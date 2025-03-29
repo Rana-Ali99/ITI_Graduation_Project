@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using ReadersClubCore.Data;
+using ReadersClubCore.Models;
+
 namespace ReadersClubDashboard
 {
     public class Program
@@ -8,7 +13,13 @@ namespace ReadersClubDashboard
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<ReadersClubContaxt>(
+                options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
+            );
+            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+                .AddEntityFrameworkStores<ReadersClubContaxt>()
+                .AddDefaultTokenProviders();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

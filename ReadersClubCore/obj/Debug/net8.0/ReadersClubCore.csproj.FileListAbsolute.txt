@@ -1,0 +1,15 @@
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.deps.json
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.runtimeconfig.json
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.dll
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.pdb
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.csproj.AssemblyReference.cache
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.AssemblyInfoInputs.cache
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.AssemblyInfo.cs
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.csproj.CoreCompileInputs.cache
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.sourcelink.json
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.dll
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\refint\ReadersClubCore.dll
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.pdb
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.genruntimeconfig.cache
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ref\ReadersClubCore.dll
