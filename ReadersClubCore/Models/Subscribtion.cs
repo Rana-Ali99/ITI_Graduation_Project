@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ReadersClubCore.Models
 {
+    //Many to Many Relation between Channel and User
     public class Subscribtion: BaseEntity
     {
         public int ChannelId { get; set; }

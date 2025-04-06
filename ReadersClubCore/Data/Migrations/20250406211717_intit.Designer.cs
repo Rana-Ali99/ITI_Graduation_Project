@@ -12,8 +12,8 @@ using ReadersClubCore.Data;
 namespace ReadersClubCore.Data.Migrations
 {
     [DbContext(typeof(ReadersClubContaxt))]
-    [Migration("20250329155450_init")]
-    partial class init
+    [Migration("20250406211717_intit")]
+    partial class intit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -281,12 +281,7 @@ namespace ReadersClubCore.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Channels");
                 });
@@ -407,6 +402,9 @@ namespace ReadersClubCore.Data.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<int>("ChannelId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Cover")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -458,6 +456,8 @@ namespace ReadersClubCore.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("ChannelId");
 
                     b.HasIndex("UserId");
 
@@ -544,17 +544,6 @@ namespace ReadersClubCore.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ReadersClubCore.Models.Channel", b =>
-                {
-                    b.HasOne("ReadersClubCore.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("ReadersClubCore.Models.ReadingProgress", b =>
                 {
                     b.HasOne("ReadersClubCore.Models.Story", "Story")
@@ -577,13 +566,13 @@ namespace ReadersClubCore.Data.Migrations
             modelBuilder.Entity("ReadersClubCore.Models.Review", b =>
                 {
                     b.HasOne("ReadersClubCore.Models.Story", "Story")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("StoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ReadersClubCore.Models.ApplicationUser", "User")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -615,18 +604,26 @@ namespace ReadersClubCore.Data.Migrations
             modelBuilder.Entity("ReadersClubCore.Models.Story", b =>
                 {
                     b.HasOne("ReadersClubCore.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Stories")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("ReadersClubCore.Models.Channel", "Channel")
+                        .WithMany("Stories")
+                        .HasForeignKey("ChannelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("ReadersClubCore.Models.ApplicationUser", "User")
-                        .WithMany()
+                        .WithMany("Stories")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
+
+                    b.Navigation("Channel");
 
                     b.Navigation("User");
                 });
@@ -648,6 +645,28 @@ namespace ReadersClubCore.Data.Migrations
                     b.Navigation("Channel");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ReadersClubCore.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Reviews");
+
+                    b.Navigation("Stories");
+                });
+
+            modelBuilder.Entity("ReadersClubCore.Models.Category", b =>
+                {
+                    b.Navigation("Stories");
+                });
+
+            modelBuilder.Entity("ReadersClubCore.Models.Channel", b =>
+                {
+                    b.Navigation("Stories");
+                });
+
+            modelBuilder.Entity("ReadersClubCore.Models.Story", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

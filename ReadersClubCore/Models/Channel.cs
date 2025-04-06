@@ -13,9 +13,6 @@ namespace ReadersClubCore.Models
         [MaxLength(50)]
         public string Name { get; set; }
         public string Image { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public ApplicationUser User { get; set; }
-
+        public ICollection<Story> Stories { get; set; } = new List<Story>();
     }
 }

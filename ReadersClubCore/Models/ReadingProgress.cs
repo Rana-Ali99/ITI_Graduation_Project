@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ReadersClubCore.Models
 {
+    //Many to Many Relation between User and Story
     public class ReadingProgress:BaseEntity
     {
         public int StoryId { get; set; }

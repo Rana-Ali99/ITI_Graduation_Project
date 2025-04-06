@@ -2,6 +2,7 @@
 
 namespace ReadersClubCore.Models
 {
+    //Many to Many Relation between User and Story
     public class SavedStories:BaseEntity
     {
         public int StoryId { get; set; }

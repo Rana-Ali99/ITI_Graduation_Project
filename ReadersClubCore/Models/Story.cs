@@ -31,6 +31,11 @@ namespace ReadersClubCore.Models
         [ForeignKey("User")]
         public int UserId { get; set; }
         public ApplicationUser User { get; set; }
+        public Channel Channel { get; set; }
+        [ForeignKey("Channel")]
+        public int ChannelId { get; set; }
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+      
     }
     public enum Status
     {
