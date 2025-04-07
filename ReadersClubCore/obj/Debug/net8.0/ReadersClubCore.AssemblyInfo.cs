@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadersClubCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991b3cca08e6ad51e0e3a4482f564d33bffaf299")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db764eeb69b84d5a09fd9e659259cc62b56c0f19")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadersClubCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadersClubCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

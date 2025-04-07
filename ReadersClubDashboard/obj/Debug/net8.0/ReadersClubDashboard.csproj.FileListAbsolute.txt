@@ -1,152 +1,155 @@
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\appsettings.Development.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\appsettings.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.staticwebassets.runtime.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.exe
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.deps.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.runtimeconfig.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.pdb
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.GeneratedMSBuildEditorConfig.editorconfig
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.AssemblyInfoInputs.cache
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.AssemblyInfo.cs
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.csproj.CoreCompileInputs.cache
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.MvcApplicationPartsAssemblyInfo.cache
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.RazorAssemblyInfo.cache
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.RazorAssemblyInfo.cs
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.build.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.development.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssets.props
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.build.ReadersClubDashboard.props
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReadersClubDashboard.props
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReadersClubDashboard.props
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.pack.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\scopedcss\bundle\ReadersClubDashboard.styles.css
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\scopedcss\projectbundle\ReadersClubDashboard.bundle.scp.css
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\refint\ReadersClubDashboard.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.pdb
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.genruntimeconfig.cache
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ref\ReadersClubDashboard.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Azure.Core.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Azure.Identity.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.ClientModel.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Drawing.Common.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Formats.Asn1.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Memory.Data.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Runtime.Caching.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Security.Permissions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Windows.Extensions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubCore.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubCore.pdb
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.csproj.AssemblyReference.cache
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.sourcelink.json
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersC.32ABD195.Up2Date
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Humanizer.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Mono.TextTemplating.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.CodeDom.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.Convention.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.Hosting.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.Runtime.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.TypedParts.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\appsettings.Development.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\appsettings.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.staticwebassets.runtime.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.staticwebassets.endpoints.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.exe
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Azure.Core.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Azure.Identity.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Humanizer.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.ClientModel.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.CodeDom.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Memory.Data.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubCore.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubCore.pdb
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.csproj.AssemblyReference.cache
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.AssemblyInfoInputs.cache
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.AssemblyInfo.cs
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.csproj.CoreCompileInputs.cache
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.MvcApplicationPartsAssemblyInfo.cache
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.RazorAssemblyInfo.cache
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.RazorAssemblyInfo.cs
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.sourcelink.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\scopedcss\bundle\ReadersClubDashboard.styles.css
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\scopedcss\projectbundle\ReadersClubDashboard.bundle.scp.css
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.build.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.development.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.build.ReadersClubDashboard.props
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReadersClubDashboard.props
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReadersClubDashboard.props
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.pack.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersC.32ABD195.Up2Date
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\refint\ReadersClubDashboard.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.pdb
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.deps.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.runtimeconfig.json
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.dll
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.pdb
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.genruntimeconfig.cache
+F:\ITI-4months\Graduation Project\ITI_Graduation_project\ReadersClubDashboard\obj\Debug\net8.0\ref\ReadersClubDashboard.dll
