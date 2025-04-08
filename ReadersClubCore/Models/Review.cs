@@ -16,7 +16,7 @@ namespace ReadersClubCore.Models
         public int Rating { get; set; }
 
         public int StoryId { get; set; }
-        public Story Story { get; set; }
+        public Story? Story { get; set; }
         [ForeignKey("User")]
         public int UserId { get; set; }
         public ApplicationUser User { get; set; }

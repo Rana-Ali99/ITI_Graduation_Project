@@ -12,7 +12,9 @@ namespace ReadersClubCore.Models
     {
         [MaxLength(50)]
         public string Name { get; set; }
-        public string Image { get; set; }
+        [RegularExpression(@"^.*\.(jpg|jpeg|png)$",
+      ErrorMessage = "Only image files (jpg, jpeg, png) are allowed.")]
+        public string? Image { get; set; }
         public ICollection<Story> Stories { get; set; } = new List<Story>();
     }
 }

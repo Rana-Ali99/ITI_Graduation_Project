@@ -6,7 +6,7 @@ namespace ReadersClubCore.Models
     public class SavedStories:BaseEntity
     {
         public int StoryId { get; set; }
-        public Story Story { get; set; }
+        public Story? Story { get; set; }
 
         [ForeignKey("User")]
         public int UserId { get; set; }

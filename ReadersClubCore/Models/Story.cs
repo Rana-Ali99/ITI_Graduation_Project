@@ -21,9 +21,9 @@ namespace ReadersClubCore.Models
         public string Audio { get; set; }
         public string Summary { get; set; }
         public bool IsActive { get; set; }  //Writer
-        public long ViewsCount { get; set; }
-        public int LikesCount { get; set; }
-        public int DislikesCount { get; set; }
+        public long ViewsCount { get; set; } = 0; // Default Value
+        public int LikesCount { get; set; } = 0; // Default Value
+        public int DislikesCount { get; set; }= 0;
         public Status Status { get; set; } = Status.Pending;
         public bool IsValid { get; set; } = false;  //Should be true , Admin determine accept story or not
         public int CategoryId { get; set; }
@@ -35,7 +35,12 @@ namespace ReadersClubCore.Models
         [ForeignKey("Channel")]
         public int ChannelId { get; set; }
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
-      
+        public ICollection<ReadingProgress> ReadingProgresses { get; set; } = new List<ReadingProgress>();
+        public ICollection<SavedStories> SavedStories { get; set; } = new List<SavedStories>();
+
+
+
+
     }
     public enum Status
     {

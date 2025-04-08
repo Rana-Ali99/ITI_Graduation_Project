@@ -18,12 +18,12 @@ namespace ReadersClubApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<ReadersClubContaxt>(
+            builder.Services.AddDbContext<ReadersClubContext>(
                 options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             );
             builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
-                .AddEntityFrameworkStores<ReadersClubContaxt>()
+                .AddEntityFrameworkStores<ReadersClubContext>()
                 .AddDefaultTokenProviders();
             var app = builder.Build();
 
