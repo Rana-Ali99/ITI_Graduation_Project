@@ -4203,11 +4203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ITI-4months\\Graduation Project\\ITI_Graduation_project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectUniqueName": "C:\\Users\\NoteBook\\Source\\Repos\\ITI_Graduation_Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "projectName": "ReadersClubDashboard",
-      "projectPath": "F:\\ITI-4months\\Graduation Project\\ITI_Graduation_project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectPath": "C:\\Users\\NoteBook\\Source\\Repos\\ITI_Graduation_Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-      "outputPath": "F:\\ITI-4months\\Graduation Project\\ITI_Graduation_project\\ReadersClubDashboard\\obj\\",
+      "outputPath": "C:\\Users\\NoteBook\\Source\\Repos\\ITI_Graduation_Project\\ReadersClubDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4223,14 +4223,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\ITI-4months\\Graduation Project\\ITI_Graduation_project\\ReadersClubCore\\ReadersClubCore.csproj": {
-              "projectPath": "F:\\ITI-4months\\Graduation Project\\ITI_Graduation_project\\ReadersClubCore\\ReadersClubCore.csproj"
+            "C:\\Users\\NoteBook\\Source\\Repos\\ITI_Graduation_Project\\ReadersClubCore\\ReadersClubCore.csproj": {
+              "projectPath": "C:\\Users\\NoteBook\\Source\\Repos\\ITI_Graduation_Project\\ReadersClubCore\\ReadersClubCore.csproj"
             }
           }
         }
@@ -4275,28 +4276,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.200, 9.0.200]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
