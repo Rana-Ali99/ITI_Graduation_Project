@@ -12,6 +12,7 @@ namespace ReadersClubCore.Models
     public class Story : BaseEntity
     {
         [MaxLength(200)]
+        [Required]
         public string Title { get; set; }
         public string Cover { get; set; }
         public string Description { get; set; }
@@ -22,17 +23,25 @@ namespace ReadersClubCore.Models
         public string Summary { get; set; }
         public bool IsActive { get; set; }  //Writer
         public long ViewsCount { get; set; }
+        
+        [Range(0, int.MaxValue)]
         public int LikesCount { get; set; }
+
+        [Range(0, int.MaxValue)]
         public int DislikesCount { get; set; }
         public Status Status { get; set; } = Status.Pending;
         public bool IsValid { get; set; } = false;  //Should be true , Admin determine accept story or not
+        [Required]
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+
         [ForeignKey("User")]
         public int UserId { get; set; }
         public ApplicationUser User { get; set; }
         public Channel Channel { get; set; }
+
         [ForeignKey("Channel")]
+        [Required]
         public int ChannelId { get; set; }
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
       

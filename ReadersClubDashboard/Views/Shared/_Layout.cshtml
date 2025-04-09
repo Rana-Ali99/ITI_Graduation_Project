@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         body {
             display: flex;
@@ -23,7 +24,7 @@
         .sidebar {
             border-top-left-radius:30px;
             border-bottom-left-radius: 30px;
-            width: 250px;
+            width: 285px;
             background-color: #343a40;
             padding-top: 20px;
             color: white;
@@ -51,15 +52,19 @@
                 transition: background-color 0.3s, padding-left 0.3s;
             }
 
-                .sidebar a:hover {
-                    background-color: #495057;
-                    padding-left: 30px;
-                }
+        .sidebar a:hover {
+            background-color: #495057;
+            padding-left: 30px;
+        }
 
         .main-content {
-            margin-right: 250px;
+            margin-right: 290px;
             padding: 20px;
             flex: 1;
+		
+        }
+        .main-content-page{
+            padding:25px 0px;
         }
 
         .topbar {
@@ -107,7 +112,7 @@
             <a href="@Url.Action("AddStory", "Story")">إضافة رواية</a>
             <a href="@Url.Action("Stories", "Story")">قائمة الروايات</a>
             <a href="@Url.Action("Index", "Category")">التصنيفات</a>
-            <a href="@Url.Action("Comments", "Reviews")">التقييمات</a>
+            <a href="@Url.Action("Index", "Reviews")">التقييمات</a>
             <a href="@Url.Action("Users", "Dashboard")">المستخدمين</a>
             <a href="@Url.Action("Index", "Channel")">القنوات</a>
         </div>
@@ -119,9 +124,10 @@
             <h5>نادي القراء</h5>
             <a href="#" class="btn-logout">تسجيل خروج</a>
         </div>
-
-        <!-- مكان عرض الصفحات -->
-        @RenderBody()
+        <div class="main-content-page">
+            <!-- مكان عرض الصفحات -->
+            @RenderBody()
+        </div>
     </div>
 
 </body>

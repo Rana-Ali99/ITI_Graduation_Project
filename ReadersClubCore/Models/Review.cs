@@ -18,6 +18,7 @@ namespace ReadersClubCore.Models
         public int StoryId { get; set; }
         public Story Story { get; set; }
         [ForeignKey("User")]
+        [Required]
         public int UserId { get; set; }
         public ApplicationUser User { get; set; }
     }
