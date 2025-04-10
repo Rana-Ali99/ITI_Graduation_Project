@@ -10,7 +10,9 @@ namespace ReadersClubCore.Models
 {
     public class ApplicationUser:IdentityUser<int>
     {
+        [Required]
         [MaxLength(50)]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Name can only contain letters and spaces.")]  // تحقق من أن الاسم يحتوي فقط على حروف ومسافات
         public string Name { get; set; }  //Regex for name
         [RegularExpression(@"^.*\.(jpg|jpeg|png)$",
        ErrorMessage = "Only image files (jpg, jpeg, png) are allowed.")]

@@ -10,6 +10,7 @@ namespace ReadersClubCore.Models
 {
     public class Channel : BaseEntity
     {
+        [Required]
         [MaxLength(50)]
         public string Name { get; set; }
         [RegularExpression(@"^.*\.(jpg|jpeg|png)$",
