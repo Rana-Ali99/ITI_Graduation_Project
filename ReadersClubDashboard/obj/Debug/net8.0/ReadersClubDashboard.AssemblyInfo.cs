@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadersClubDashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db764eeb69b84d5a09fd9e659259cc62b56c0f19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+619a9bfeb065e19a19bc01c94b7978b3936c3c2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadersClubDashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadersClubDashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
