@@ -7788,19 +7788,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cc\\.nuget\\packages\\": {}
+    "C:\\Users\\NoteBook\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectUniqueName": "E:\\بروجيكت المنحة\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "projectName": "ReadersClubDashboard",
-      "projectPath": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
-      "packagesPath": "C:\\Users\\cc\\.nuget\\packages\\",
-      "outputPath": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\obj\\",
+      "projectPath": "E:\\بروجيكت المنحة\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
+      "outputPath": "E:\\بروجيكت المنحة\\ReadersClubDashboard\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\cc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7815,8 +7822,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubCore\\ReadersClubCore.csproj": {
-              "projectPath": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubCore\\ReadersClubCore.csproj"
+            "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj": {
+              "projectPath": "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj"
             }
           }
         }
@@ -7830,7 +7837,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -7872,7 +7880,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

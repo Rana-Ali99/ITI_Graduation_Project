@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "jqeo2iGOWjEhJg2M2U61s9EuqU/TF0CNoB9ojWqOJu0=",
+  "Hash": "dWJpKzlLb0x2u/vGGgyTPTL/85Mv5TySk+xgBp7UYCY=",
   "Source": "ReadersClubApi",
   "BasePath": "_content/ReadersClubApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
