@@ -22,4 +22,8 @@
     <ProjectReference Include="..\ReadersClubCore\ReadersClubCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\ChannelUploadedImages\" />
+  </ItemGroup>
+
 </Project>
