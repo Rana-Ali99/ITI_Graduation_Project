@@ -14,7 +14,10 @@ namespace ReadersClubCore.Models
         [MaxLength(50)]
         public string Name { get; set; }
         [RegularExpression(@"^.*\.(jpg|jpeg|png)$",
-      ErrorMessage = "Only image files (jpg, jpeg, png) are allowed.")]
+        ErrorMessage = "Only image files (jpg, jpeg, png) are allowed.")]
+
+        [StringLength(500, ErrorMessage = "Description cannot exceed {500} characters.")]
+        public string Description { get; set; }
         public string? Image { get; set; }
         public ICollection<Story> Stories { get; set; } = new List<Story>();
     }
