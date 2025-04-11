@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadersClubCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7ed775a8a2ec69ec2826cb99c1e98d79e9bcb6d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29587ab4aa7aa2d3284237553fc819bc36bb8ecd")]
+>>>>>>> e3349b707c89be867756e8907cd2005654224a01
 [assembly: System.Reflection.AssemblyProductAttribute("ReadersClubCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadersClubCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
