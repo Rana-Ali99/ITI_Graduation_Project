@@ -355,3 +355,14 @@ D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubApi\obj\Debug\net8.0
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.genruntimeconfig.cache
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubApi\obj\Debug\net8.0\ref\ReadersClubApi.dll
 >>>>>>> e3349b707c89be867756e8907cd2005654224a01
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.csproj.AssemblyReference.cache
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.AssemblyInfoInputs.cache
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.AssemblyInfo.cs
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.csproj.CoreCompileInputs.cache
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.sourcelink.json
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.dll
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\refint\ReadersClubApi.dll
+D:\ITI\finaaaal\ReadersClubApi\obj\Debug\net8.0\ReadersClubApi.pdb

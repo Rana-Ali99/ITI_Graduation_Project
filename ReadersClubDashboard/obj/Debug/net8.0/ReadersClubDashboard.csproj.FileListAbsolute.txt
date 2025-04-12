@@ -812,3 +812,15 @@ D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubDashboard\obj\Debug\
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.genruntimeconfig.cache
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubDashboard\obj\Debug\net8.0\ref\ReadersClubDashboard.dll
 >>>>>>> e3349b707c89be867756e8907cd2005654224a01
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.csproj.AssemblyReference.cache
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.AssemblyInfoInputs.cache
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.AssemblyInfo.cs
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.csproj.CoreCompileInputs.cache
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.MvcApplicationPartsAssemblyInfo.cache
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.RazorAssemblyInfo.cache
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.RazorAssemblyInfo.cs
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.sourcelink.json
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.dll
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\refint\ReadersClubDashboard.dll
+D:\ITI\finaaaal\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.pdb

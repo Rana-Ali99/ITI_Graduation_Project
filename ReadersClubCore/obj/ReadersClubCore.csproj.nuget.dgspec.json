@@ -1,44 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj": {}
+    "D:\\ITI\\finaaaal\\ReadersClubCore\\ReadersClubCore.csproj": {}
   },
   "projects": {
-    "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj": {
+    "D:\\ITI\\finaaaal\\ReadersClubCore\\ReadersClubCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj",
+        "projectUniqueName": "D:\\ITI\\finaaaal\\ReadersClubCore\\ReadersClubCore.csproj",
         "projectName": "ReadersClubCore",
-        "projectPath": "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj",
+        "projectPath": "D:\\ITI\\finaaaal\\ReadersClubCore\\ReadersClubCore.csproj",
         "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-        "outputPath": "E:\\بروجيكت المنحة\\ReadersClubCore\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\ReadersClubCore.csproj": {}
-  },
-  "projects": {
-    "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\ReadersClubCore.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\ReadersClubCore.csproj",
-        "projectName": "ReadersClubCore",
-        "projectPath": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\ReadersClubCore.csproj",
-        "packagesPath": "C:\\Users\\eltai\\.nuget\\packages\\",
-        "outputPath": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\obj\\",
+        "outputPath": "D:\\ITI\\finaaaal\\ReadersClubCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eltai\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
+          "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,11 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-<<<<<<< HEAD
-        "SdkAnalysisLevel": "9.0.200"
-=======
         "SdkAnalysisLevel": "9.0.100"
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
       },
       "frameworks": {
         "net8.0": {
@@ -112,11 +87,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

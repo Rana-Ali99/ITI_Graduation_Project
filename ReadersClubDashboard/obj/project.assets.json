@@ -7788,44 +7788,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\NoteBook\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-    "C:\\Users\\eltai\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "E:\\بروجيكت المنحة\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectUniqueName": "D:\\ITI\\finaaaal\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "projectName": "ReadersClubDashboard",
-      "projectPath": "E:\\بروجيكت المنحة\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectPath": "D:\\ITI\\finaaaal\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-      "outputPath": "E:\\بروجيكت المنحة\\ReadersClubDashboard\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
-      "projectName": "ReadersClubDashboard",
-      "projectPath": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
-      "packagesPath": "C:\\Users\\eltai\\.nuget\\packages\\",
-      "outputPath": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubDashboard\\obj\\",
+      "outputPath": "D:\\ITI\\finaaaal\\ReadersClubDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\eltai\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
+        "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7840,13 +7819,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj": {
-              "projectPath": "E:\\بروجيكت المنحة\\ReadersClubCore\\ReadersClubCore.csproj"
-=======
-            "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\ReadersClubCore.csproj": {
-              "projectPath": "D:\\AlTayeb\\ITI-Final Project\\ReadersClup_Project\\ReadersClubCore\\ReadersClubCore.csproj"
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
+            "D:\\ITI\\finaaaal\\ReadersClubCore\\ReadersClubCore.csproj": {
+              "projectPath": "D:\\ITI\\finaaaal\\ReadersClubCore\\ReadersClubCore.csproj"
             }
           }
         }
@@ -7861,11 +7835,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-<<<<<<< HEAD
-      "SdkAnalysisLevel": "9.0.200"
-=======
       "SdkAnalysisLevel": "9.0.100"
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
     },
     "frameworks": {
       "net8.0": {
@@ -7907,12 +7877,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> e3349b707c89be867756e8907cd2005654224a01
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\ITI\\finaaaal\\ReadersClubDashboard\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
