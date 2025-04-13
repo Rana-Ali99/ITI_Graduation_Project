@@ -1,0 +1,18 @@
+﻿@model ReadersClubCore.Models.Channel
+
+<h1 class="alert alert-secondary text-center">تعديل قناة @Model.Name</h1>
+<form class="row g-3 flex-column p-3 mt-3 border-1 rounded" enctype="multipart/form-data" asp-controller="Channel" asp-action="EditeChannel" method="post">
+    <div>
+        <label for="validationCustom01" class="form-label">اسم القناة</label>
+        <input type="text" class="form-control" id="validationCustom01" asp-for="Name" value="@Model.Name" required placeholder="ادخل اسم القناة">
+    </div>
+    <div>
+        <label for="validationCustom02" class="form-label">وصف القناة</label>
+        <textarea type="text" class="form-control" id="validationCustom02" asp-for="Description" value="@Model.Description" required>ادخل وصف القناة ... </textarea>
+    </div>
+    <div>
+        <label for="validationCustomUsername" class="form-label">صورة القناة</label>
+        <input type="file" class="form-control" id="validationCustomUsername" name="imageFile" aria-describedby="inputGroupPrepend" required>
+    </div>
+    <button class="btn btn-primary w-50 align-self-center" type="submit">حفظ التعديلات </button>
+</form>
