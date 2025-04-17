@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4wF3ENDTzVp2SJwPI7IzT2oz+hNdYrhWyFcTFoP0/kE=",
+  "Hash": "1dX/yjggBp1SHjJySjeCsjm4S7ZBk4iOVFJhyujwpKo=",
   "Source": "ReadersClubDashboard",
   "BasePath": "_content/ReadersClubDashboard",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "Uploads/Users/7d446068-e98f-4a53-a550-5b86daa535f8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\not_found.jpg",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "Uploads/Users/not_found.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\not_found.jpg"
     }
   ]
 }

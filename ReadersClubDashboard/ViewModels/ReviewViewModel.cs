@@ -1,4 +1,4 @@
-﻿namespace ReadersClubCore.ViewModels
+﻿namespace ReadersClubDashboard.ViewModels
 {
     public class ReviewViewModel
     {

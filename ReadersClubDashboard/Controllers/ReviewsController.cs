@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
-using ReadersClubCore.ViewModels;
+using ReadersClubDashboard.ViewModels;
 
 namespace ReadersClub.Controllers
 {

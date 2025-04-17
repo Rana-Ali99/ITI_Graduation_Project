@@ -37,7 +37,7 @@ namespace ReadersClubDashboard.Controllers
                 bool IsValid = false;
                 if (existingUser == null)
                 {
-                    ModelState.AddModelError("UserName","UserName is not Found");
+                    ModelState.AddModelError("UserName","لا يوجد اسم مستخدم بهذا الاسم");
                     return View(user);
                 }
                 var userRoles = await _userManager.GetRolesAsync(existingUser);
@@ -50,7 +50,7 @@ namespace ReadersClubDashboard.Controllers
                 }
                 if (!IsValid)
                 {
-                    ModelState.AddModelError("UserName", "You are not authorized to login");
+                    ModelState.AddModelError("UserName", "لا يُسمح لك الدخول على لوحة التحكم .");
                     return View(user);
                 }
                 var result = await _signInManager.PasswordSignInAsync(user.UserName, user.Password, user.RememberMe, lockoutOnFailure: false);
@@ -69,7 +69,7 @@ namespace ReadersClubDashboard.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login.");
+                    ModelState.AddModelError(string.Empty, "تسجيل دخول غير صحيح .");
                     return View(user);
                 }
             }

@@ -12,7 +12,7 @@ using ReadersClubCore.Data;
 namespace ReadersClubCore.Data.Migrations
 {
     [DbContext(typeof(ReadersClubContext))]
-    [Migration("20250408145930_init")]
+    [Migration("20250416151905_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -20,7 +20,7 @@ namespace ReadersClubCore.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.14")
+                .HasAnnotation("ProductVersion", "8.0.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RJT3CO5vQBs=",
+  "dgSpecHash": "Fg4enFpoSmc=",
   "success": true,
   "projectFilePath": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cc\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\cc\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\cc\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\cc\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

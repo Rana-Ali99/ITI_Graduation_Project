@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\ReadersClubDashboard.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\not_found.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\not_found.jpg"
+    },
+    {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

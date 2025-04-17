@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using ReadersClubCore.Data;
 using ReadersClubCore.DataSeed;
 using ReadersClubCore.Models;
+using System.Reflection;
 
 namespace ReadersClubDashboard
 {
@@ -14,14 +15,21 @@ namespace ReadersClubDashboard
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            #region Services
+
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ReadersClubContext>(
                 options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             );
+            //Auto Mapper
+            builder.Services.AddAutoMapper(typeof(Assembly));
+            #region Identity
             builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddEntityFrameworkStores<ReadersClubContext>()
                 .AddDefaultTokenProviders();
+
+            #endregion
 
             #region Cookies
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -37,6 +45,7 @@ namespace ReadersClubDashboard
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             });
+            #endregion
             #endregion
             var app = builder.Build();
 

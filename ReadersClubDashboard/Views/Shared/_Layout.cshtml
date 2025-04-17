@@ -113,7 +113,7 @@
             <a href="@Url.Action("Stories", "Story")">قائمة الروايات</a>
             <a href="@Url.Action("Index", "Category")">التصنيفات</a>
             <a href="@Url.Action("Index", "Reviews")">التقييمات</a>
-            <a href="@Url.Action("Users", "Dashboard")">المستخدمين</a>
+            <a href="@Url.Action("Index", "User")">المستخدمين</a>
             <a href="@Url.Action("Index", "Channel")">القنوات</a>
         </div>
     </div>
@@ -129,6 +129,8 @@
             @RenderBody()
         </div>
     </div>
-
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        @RenderSection("Scripts", required: false)
 </body>
 </html>
