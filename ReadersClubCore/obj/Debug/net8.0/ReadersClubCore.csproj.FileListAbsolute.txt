@@ -28,6 +28,23 @@ E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\re
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.pdb
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.genruntimeconfig.cache
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubCore\obj\Debug\net8.0\ref\ReadersClubCore.dll
+<<<<<<< HEAD
+E:\بروجيكت المنحة\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.deps.json
+E:\بروجيكت المنحة\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.runtimeconfig.json
+E:\بروجيكت المنحة\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.dll
+E:\بروجيكت المنحة\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.pdb
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.csproj.AssemblyReference.cache
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.AssemblyInfoInputs.cache
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.AssemblyInfo.cs
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.csproj.CoreCompileInputs.cache
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.sourcelink.json
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.dll
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\refint\ReadersClubCore.dll
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.pdb
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.genruntimeconfig.cache
+E:\بروجيكت المنحة\ReadersClubCore\obj\Debug\net8.0\ref\ReadersClubCore.dll
+=======
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.deps.json
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.runtimeconfig.json
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.dll
@@ -43,3 +60,19 @@ D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\obj\Debug\net8.
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.pdb
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.genruntimeconfig.cache
 D:\AlTayeb\ITI-Final Project\ReadersClup_Project\ReadersClubCore\obj\Debug\net8.0\ref\ReadersClubCore.dll
+>>>>>>> e3349b707c89be867756e8907cd2005654224a01
+D:\ITI\finaaaal\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.deps.json
+D:\ITI\finaaaal\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.runtimeconfig.json
+D:\ITI\finaaaal\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.dll
+D:\ITI\finaaaal\ReadersClubCore\bin\Debug\net8.0\ReadersClubCore.pdb
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.csproj.AssemblyReference.cache
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.AssemblyInfoInputs.cache
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.AssemblyInfo.cs
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.csproj.CoreCompileInputs.cache
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.sourcelink.json
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.dll
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\refint\ReadersClubCore.dll
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.pdb
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ReadersClubCore.genruntimeconfig.cache
+D:\ITI\finaaaal\ReadersClubCore\obj\Debug\net8.0\ref\ReadersClubCore.dll

@@ -3,24 +3,7 @@
 ################################################################################
 
 /.vs
-/ReadersClubDashboard/bin/Debug/net8.0/ReadersClubDashboard.dll
-/ReadersClubDashboard/bin/Debug/net8.0/ReadersClubDashboard.exe
-/ReadersClubDashboard/bin/Debug/net8.0/ReadersClubDashboard.pdb
-/ReadersClubDashboard/bin/Debug/net8.0/ReadersClubDashboard.staticwebassets.endpoints.json
-/ReadersClubDashboard/bin/Debug/net8.0/ReadersClubDashboard.staticwebassets.runtime.json
-/ReadersClubDashboard/obj/Debug/net8.0/refint/ReadersClubDashboard.dll
-/ReadersClubDashboard/obj/Debug/net8.0/ref/ReadersClubDashboard.dll
-/ReadersClubDashboard/obj/Debug/net8.0/ReadersClubDashboard.AssemblyInfo.cs
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets.upToDateCheck.txt
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets.pack.json
-/ReadersClubDashboard/obj/Debug/net8.0/ReadersClubDashboard.dll
-/ReadersClubDashboard/obj/Debug/net8.0/ReadersClubDashboard.pdb
-/ReadersClubDashboard/obj/Debug/net8.0/ReadersClubDashboard.sourcelink.json
-/ReadersClubDashboard/obj/Debug/net8.0/ReadersClubDashboard.GeneratedMSBuildEditorConfig.editorconfig
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets.build.endpoints.json
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets.build.json
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets.development.json
-/ReadersClubDashboard/obj/Debug/net8.0/ReadersClubDashboard.AssemblyInfoInputs.cache
-/ReadersClubDashboard/obj/Debug/net8.0/apphost.exe
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets/msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssets.props
-/ReadersClubDashboard/obj/Debug/net8.0/staticwebassets/msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+# Ignore bin and obj folders
+bin/
+obj/
+
