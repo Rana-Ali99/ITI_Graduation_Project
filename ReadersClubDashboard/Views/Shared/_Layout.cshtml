@@ -24,7 +24,9 @@
             <a href="@Url.Action("Stories", "Story")">قائمة الروايات</a>
             <a href="@Url.Action("Index", "Category")">التصنيفات</a>
             <a href="@Url.Action("Index", "Reviews")">التقييمات</a>
+           @User.IsInRole("admin"){
             <a href="@Url.Action("Index", "User")">المستخدمين</a>
+           }
             <a href="@Url.Action("Index", "Channel")">القنوات</a>
         </div>
     </div>
@@ -33,7 +35,7 @@
     <div class="main-content">
         <div class="topbar">
             <h5>نادي القراء</h5>
-            <a href="#" class="btn-logout">تسجيل خروج</a>
+            <a asp-action="LogOut" asp-controller="Account" class="btn-logout">تسجيل خروج</a>
         </div>
 
         <div class="main-content-page">

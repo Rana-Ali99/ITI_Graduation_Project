@@ -8,69 +8,46 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>تسجيل الدخول</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <style>
-        body{
-            font-family: 'Poppins', sans-serif;
-        }
-        label{
-            font-weight: 500;
-        }
-    </style>
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+   
 </head>
-
 <body>
-    <section class="vh-100 bg-light">
-        <div class="container h-100">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-               
-                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-                    <form asp-action="Login" method="post" dir="rtl">
-                        <h2 class="mb-4 text-center">تسجيل الدخول</h2>
 
-                        <div asp-validation-summary="All" class="text-danger mb-3 text-end"></div>
+    <div class="login-card">
+        <form asp-action="Login" method="post" dir="rtl">
+            <h2 class="mb-4 text-center">تسجيل الدخول</h2>
 
-                        <!-- Username -->
-                        <div class="form-outline mb-4 text-end">
-                            <label class="form-label" asp-for="UserName"></label>
-                            <input asp-for="UserName" class="form-control form-control-lg small-placeholder text-end" placeholder="ادخل اسم المستخدم" />
-                            <span asp-validation-for="UserName" class="text-danger"></span>
-                        </div>
+            <div asp-validation-summary="All" class="text-danger mb-3 text-end"></div>
 
-                        <!-- Password -->
-                        <div class="form-outline mb-3 text-end">
-                            <label class="form-label" asp-for="Password"></label>
-                            <input asp-for="Password" type="password" class="form-control form-control-lg small-placeholder text-end" placeholder="ادخل الرقم السري" />
-                            <span asp-validation-for="Password" class="text-danger"></span>
-                        </div>
-
-                        <!-- Remember Me -->
-                        <div class="d-flex justify-content-between align-items-center mb-4 text-end">
-                            <div class="form-check">
-                                <input asp-for="RememberMe" class="form-check-input small-placeholder" type="checkbox" />
-                                <label class="form-check-label" asp-for="RememberMe"></label>
-                            </div>
-                        </div>
-
-                        <!-- Submit Button -->
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg">تسجيل الدخول</button>
-                        </div>
-                    </form>
-
-                </div>
-
-                <div class="col-md-8 col-lg-7 col-xl-6">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                         class="img-fluid" alt="Login Image" />
-                </div>
+            <div class="mb-4 text-end">
+                <label class="form-label" asp-for="UserName"></label>
+                <input asp-for="UserName" class="form-control text-end" placeholder="ادخل اسم المستخدم" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
             </div>
-        </div>
-    </section>
+
+            <div class="mb-4 text-end">
+                <label class="form-label" asp-for="Password"></label>
+                <input asp-for="Password" type="password" class="form-control text-end" placeholder="ادخل الرقم السري" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-check mb-4 text-end">
+                <input asp-for="RememberMe" class="form-check-input" type="checkbox" />
+                <label class="form-check-label" asp-for="RememberMe"></label>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
+            </div>
+        </form>
+    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 </body>
 </html>

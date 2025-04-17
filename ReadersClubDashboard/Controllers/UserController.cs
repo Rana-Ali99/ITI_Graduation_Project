@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -28,6 +29,7 @@ namespace ReadersClubDashboard.Controllers
             _roleManager = roleManager;
             _environment = environment;
         }
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var users = await _userManager.Users

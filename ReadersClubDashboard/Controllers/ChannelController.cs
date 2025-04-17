@@ -39,7 +39,7 @@ namespace ReadersClubDashboard.Controllers
         {
             if (imageFile != null && imageFile.Length > 0)
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ChannelsImages");
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/ChannelsImages");
 
                 //check if the folder exists or not, if not will create it
                 if (!Directory.Exists(uploadsFolder))
@@ -56,7 +56,7 @@ namespace ReadersClubDashboard.Controllers
                 }
 
                 // set the image path in the channel data
-                channelData.Image = "/ChannelsImages/" + fileName;
+                channelData.Image = "/Uploads/ChannelsImages/" + fileName;
             }
 
             // save data
@@ -94,7 +94,7 @@ namespace ReadersClubDashboard.Controllers
             var channel = _context.Channels.Find(id);
             if (imageFile != null && imageFile.Length > 0)
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ChannelsImages");
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/ChannelsImages");
 
                 //check if the folder exists or not, if not will create it
                 if (!Directory.Exists(uploadsFolder))
@@ -111,7 +111,7 @@ namespace ReadersClubDashboard.Controllers
                 }
 
                 // set the image path in the channel data
-                channel.Image = "/ChannelsImages/" + fileName;
+                channel.Image = "/Uploads/ChannelsImages/" + fileName;
             }
 
             channel.Name = channelData.Name;
