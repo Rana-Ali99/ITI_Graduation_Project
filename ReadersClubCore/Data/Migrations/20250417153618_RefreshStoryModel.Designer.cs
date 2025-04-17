@@ -12,8 +12,8 @@ using ReadersClubCore.Data;
 namespace ReadersClubCore.Data.Migrations
 {
     [DbContext(typeof(ReadersClubContext))]
-    [Migration("20250411202957_add_description_to_channel")]
-    partial class add_description_to_channel
+    [Migration("20250417153618_RefreshStoryModel")]
+    partial class RefreshStoryModel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

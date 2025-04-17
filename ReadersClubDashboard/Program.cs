@@ -5,6 +5,7 @@ using ReadersClubCore.Data;
 using ReadersClubCore.DataSeed;
 using ReadersClubCore.Models;
 using ReadersClubDashboard.Service;
+using ReadersClubDashboard.Services;
 using System.Reflection;
 
 namespace ReadersClubDashboard
@@ -15,6 +16,7 @@ namespace ReadersClubDashboard
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddScoped<CategoryService>();
+            builder.Services.AddScoped<StoryService>();
 
             // Add services to the container.
             #region Services
