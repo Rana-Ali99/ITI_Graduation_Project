@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using ReadersClubCore.Data;
 using ReadersClubCore.DataSeed;
 using ReadersClubCore.Models;
+using ReadersClubDashboard.Service;
 using System.Reflection;
 
 namespace ReadersClubDashboard
@@ -13,6 +14,7 @@ namespace ReadersClubDashboard
         public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddScoped<CategoryService>();
 
             // Add services to the container.
             #region Services

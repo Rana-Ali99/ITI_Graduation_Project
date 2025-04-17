@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1dX/yjggBp1SHjJySjeCsjm4S7ZBk4iOVFJhyujwpKo=",
+  "Hash": "YsS/GF0vtedIK5epSVpsNSyC8RtSXJi9CtUVgODebas=",
   "Source": "ReadersClubDashboard",
   "BasePath": "_content/ReadersClubDashboard",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ReadersClubDashboard.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\Channel.css",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "css/Channel.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Channel.css"
     },
     {
       "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\site.css",

@@ -6,6 +6,7 @@ E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.runtimeconfig.json
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.dll
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\ReadersClubDashboard.pdb
+E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\AutoMapper.dll
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Azure.Core.dll
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Azure.Identity.dll
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\Humanizer.dll
@@ -266,4 +267,3 @@ E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.pdb
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ReadersClubDashboard.genruntimeconfig.cache
 E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\obj\Debug\net8.0\ref\ReadersClubDashboard.dll
-E:\ITITasks\ITIGraduationProject\ReadersClub\ReadersClubDashboard\bin\Debug\net8.0\AutoMapper.dll

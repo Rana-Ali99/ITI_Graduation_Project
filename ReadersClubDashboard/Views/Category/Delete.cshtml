@@ -1,0 +1,28 @@
+﻿@model ReadersClubCore.Models.Category
+
+@{
+    ViewData["Title"] = "حذف التصنيف";
+}
+
+<h2 class="text-center">@ViewData["Title"]</h2>
+
+<div class="alert alert-warning">
+    <strong>تحذير!</strong> هل أنت متأكد من حذف التصنيف التالي؟
+</div>
+
+<div class="text-center">
+    <h4>@Model.Name</h4>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <div class="text-center">
+
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> تأكيد الحذف
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left-circle"></i> إلغاء
+        </a>
+    </div>
+</form>

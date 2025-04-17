@@ -8,6 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
+
+    <Compile Remove="wwwroot\ChannelUploadedImages\**" />
+    <Content Remove="wwwroot\ChannelUploadedImages\**" />
+    <EmbeddedResource Remove="wwwroot\ChannelUploadedImages\**" />
+    <None Remove="wwwroot\ChannelUploadedImages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.15">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,6 +29,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ReadersClubCore\ReadersClubCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ChannelsImages\" />
   </ItemGroup>
 
 </Project>

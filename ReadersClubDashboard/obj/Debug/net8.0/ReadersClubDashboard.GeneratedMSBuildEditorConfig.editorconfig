@@ -30,12 +30,36 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Channel/AddChannel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbm5lbFxBZGRDaGFubmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Channel/EditeChannel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbm5lbFxFZGl0ZUNoYW5uZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Channel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbm5lbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Channel/NoChannels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbm5lbFxOb0NoYW5uZWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Dashboard/Index.cshtml]

@@ -1,5 +1,89 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<ReadersClubCore.Models.Channel>
+
 @{
+    /*Start Channel Navbar section*/
 }
+<nav class="navbar navbar-expand-lg text-bg-dark ">
+    <div class="container-fluid">
+        <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse align-items-center justify-content-between" id="navbarSupportedContent">
+
+            <div class="nav-item">
+                <span aria-current="page">عدد القنوات :</span>
+                <span class="badge text-bg-info fs-5">
+                    @ViewData["NumberOfChannels"]
+                </span>
+            </div>
+            <div class="nav-item">
+                <a class="btn btn-info text-dark" asp-controller="Channel" asp-action="AddChannel">أضافة قناة <span id="add-channel" class="bg-light rounded-circle">+</span></a>
+            </div>
+
+            @{
+                /*Search Part*/
+            }
+            <form class="d-flex gap-2 w-50 flex-row-reverse" role="search">
+                <input class="form-control me-2" type="search" placeholder="ادخل اسم القناة للبحث" aria-label="Search">
+                <button class="btn btn-outline-success w-50" type="submit">ابحث عن القناة</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+@{
+    /*End Channel Navbar section*/
+}
+@{
+    /*Start Channel section*/
+}
+<section class="channel container-fluid bg-gray-dark">
+    <div class="row p-3 gap-3 justify-content-center">
+        @foreach (var channel in Model)
+        {
+            @*Check if the channel is deleted or not,if it was deleted skip it *@
+            @if (channel.IsDeleted)
+            {
+                continue;
+            }
+            <div class="card bg-yellow text-center p-2 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <img src="@channel.Image" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <h5 class="card-title" style="background-color:#eee;padding:10px;">@channel.Name</h5>
+
+                    <p class="card-text">@channel.Description</p>
+
+                    <a href="#" class="btn bg-blue w-100 my-2">تصفح القناة</a>
+
+                    <div class="card-buttons d-flex gap-2 align-items-center">
+
+                        <a class="btn btn-outline-secondary flex-grow-1"
+                           asp-controller="Channel" asp-action="EditeChannel" asp-route-id="@channel.Id">
+                            تعديل القناة
+                        </a>
+                        <a class="btn btn-outline-danger flex-grow-1" id="delete-button"
+                           asp-controller="Channel" asp-action="DeleteChannel" asp-route-id="@channel.Id">
+                            حذف القناة
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+@{
+    /*End Channel section*/
+}
+@{
+    /*This javascript section to handel delete process for channel*/
+}
+<script>
+    const deleteButton = document.getElementById('delete-button');
+    deleteButton.addEventListener('click' , (e)=> {
+            <div class="modal-dialog modal-dialog-centered">
+                هل حقا تريد حذف هذه القناة ؟!
+            </div>
+    })
+</script>
