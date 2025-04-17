@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\ChannelUploadedImages\**" />
+    <Content Remove="wwwroot\ChannelUploadedImages\**" />
+    <EmbeddedResource Remove="wwwroot\ChannelUploadedImages\**" />
+    <None Remove="wwwroot\ChannelUploadedImages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.15">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -23,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\ChannelUploadedImages\" />
+    <Folder Include="wwwroot\ChannelsImages\" />
   </ItemGroup>
 
 </Project>

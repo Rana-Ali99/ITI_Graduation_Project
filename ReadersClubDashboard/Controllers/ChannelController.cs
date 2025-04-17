@@ -4,8 +4,10 @@ using ReadersClubCore.Models;
 using static System.Net.Mime.MediaTypeNames;
 namespace ReadersClubDashboard.Controllers
 {
+    //handling channels
     public class ChannelController : Controller
     {
+        
         private readonly ReadersClubContext _context;
         public ChannelController(ReadersClubContext context)
         {
@@ -37,7 +39,7 @@ namespace ReadersClubDashboard.Controllers
         {
             if (imageFile != null && imageFile.Length > 0)
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ChannelUploadedImages");
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ChannelsImages");
 
                 //check if the folder exists or not, if not will create it
                 if (!Directory.Exists(uploadsFolder))
@@ -54,22 +56,29 @@ namespace ReadersClubDashboard.Controllers
                 }
 
                 // set the image path in the channel data
-                channelData.Image = "/ChannelUploadedImages/" + fileName;
+                channelData.Image = "/ChannelsImages/" + fileName;
             }
 
             // save data
-            _context.Channels.Add(channelData);
-            await _context.SaveChangesAsync();
-
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _context.Channels.Add(channelData);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View("AddChannel", channelData); // لو فيه error في الفاليديشن
         }
 
         [HttpGet]
         public RedirectToActionResult DeleteChannel(int id)
         {
             // make softe delete using isDeleted property
-            _context.Channels.Find(id).IsDeleted = true;
-            _context.SaveChanges();
+            var channel = _context.Channels.Find(id);
+            if (channel != null)
+            {
+                channel.IsDeleted = true;
+                _context.SaveChanges();
+            }
             return RedirectToAction("Index");
         }
 
@@ -85,7 +94,7 @@ namespace ReadersClubDashboard.Controllers
             var channel = _context.Channels.Find(id);
             if (imageFile != null && imageFile.Length > 0)
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ChannelUploadedImages");
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ChannelsImages");
 
                 //check if the folder exists or not, if not will create it
                 if (!Directory.Exists(uploadsFolder))
@@ -102,7 +111,7 @@ namespace ReadersClubDashboard.Controllers
                 }
 
                 // set the image path in the channel data
-                channel.Image = "/ChannelUploadedImages/" + fileName;
+                channel.Image = "/ChannelsImages/" + fileName;
             }
 
             channel.Name = channelData.Name;
