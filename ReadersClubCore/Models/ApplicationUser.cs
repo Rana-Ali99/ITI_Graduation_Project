@@ -19,6 +19,8 @@ namespace ReadersClubCore.Models
         public string? Image { get; set; }
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
         public ICollection<Story> Stories { get; set; } = new List<Story>();
+        public ICollection<Channel> Channels { get; set; } = new List<Channel>();
+        public ICollection<Subscribtion> Subscribtions { get; set; } = new List<Subscribtion>();
 
 
     }

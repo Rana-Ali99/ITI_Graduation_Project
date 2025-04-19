@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ReadersClubDashboard.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
         // الصفحة الرئيسية للوحة التحكم

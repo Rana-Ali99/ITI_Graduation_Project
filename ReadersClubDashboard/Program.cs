@@ -5,6 +5,7 @@ using ReadersClubCore.Data;
 using ReadersClubCore.DataSeed;
 using ReadersClubCore.Models;
 using ReadersClubDashboard.Service;
+using ReadersClubDashboard.Sevice;
 using System.Reflection;
 
 namespace ReadersClubDashboard
@@ -15,6 +16,8 @@ namespace ReadersClubDashboard
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddScoped<CategoryService>();
+            builder.Services.AddScoped<StoryService>();
+            builder.Services.AddScoped<ChannelService>();
 
             // Add services to the container.
             #region Services
@@ -88,7 +91,7 @@ namespace ReadersClubDashboard
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Dashboard}/{action=Index}/{id?}");
 
             app.Run();
         }

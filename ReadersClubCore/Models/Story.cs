@@ -21,7 +21,7 @@ namespace ReadersClubCore.Models
         [RegularExpression(@"^.*\.(mp3|MP3)$", ErrorMessage = "Only MP3 audios are allowed.")]
         public string Audio { get; set; }
         public string Summary { get; set; }
-        public bool IsActive { get; set; }  //Writer
+        public bool IsActive { get; set; } = true;//Writer 
         public long ViewsCount { get; set; } = 0; // Default Value
 
         [Range(0, int.MaxValue)]

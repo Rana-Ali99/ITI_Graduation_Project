@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Category/PartialView/CreateEditForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcUGFydGlhbFZpZXdcQ3JlYXRlRWRpdEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Channel/AddChannel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbm5lbFxBZGRDaGFubmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Story/Stories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcnlcU3Rvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/Story/UpdateStory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcnlcVXBkYXRlU3RvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/ITITasks/ITIGraduationProject/ReadersClub/ReadersClubDashboard/Views/User/Create.cshtml]

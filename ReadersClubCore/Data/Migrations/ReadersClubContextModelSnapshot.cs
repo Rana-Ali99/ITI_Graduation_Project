@@ -281,7 +281,12 @@ namespace ReadersClubCore.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Channels");
                 });
@@ -544,6 +549,17 @@ namespace ReadersClubCore.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ReadersClubCore.Models.Channel", b =>
+                {
+                    b.HasOne("ReadersClubCore.Models.ApplicationUser", "User")
+                        .WithMany("Channels")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ReadersClubCore.Models.ReadingProgress", b =>
                 {
                     b.HasOne("ReadersClubCore.Models.Story", "Story")
@@ -612,7 +628,7 @@ namespace ReadersClubCore.Data.Migrations
                     b.HasOne("ReadersClubCore.Models.Channel", "Channel")
                         .WithMany("Stories")
                         .HasForeignKey("ChannelId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("ReadersClubCore.Models.ApplicationUser", "User")
@@ -631,13 +647,13 @@ namespace ReadersClubCore.Data.Migrations
             modelBuilder.Entity("ReadersClubCore.Models.Subscribtion", b =>
                 {
                     b.HasOne("ReadersClubCore.Models.Channel", "Channel")
-                        .WithMany()
+                        .WithMany("Subscribtions")
                         .HasForeignKey("ChannelId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("ReadersClubCore.Models.ApplicationUser", "User")
-                        .WithMany()
+                        .WithMany("Subscribtions")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -649,9 +665,13 @@ namespace ReadersClubCore.Data.Migrations
 
             modelBuilder.Entity("ReadersClubCore.Models.ApplicationUser", b =>
                 {
+                    b.Navigation("Channels");
+
                     b.Navigation("Reviews");
 
                     b.Navigation("Stories");
+
+                    b.Navigation("Subscribtions");
                 });
 
             modelBuilder.Entity("ReadersClubCore.Models.Category", b =>
@@ -662,6 +682,8 @@ namespace ReadersClubCore.Data.Migrations
             modelBuilder.Entity("ReadersClubCore.Models.Channel", b =>
                 {
                     b.Navigation("Stories");
+
+                    b.Navigation("Subscribtions");
                 });
 
             modelBuilder.Entity("ReadersClubCore.Models.Story", b =>

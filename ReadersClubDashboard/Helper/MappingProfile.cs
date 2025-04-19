@@ -9,6 +9,7 @@ namespace ReadersClubDashboard.Helper
         public MappingProfile()
         {
             CreateMap<ApplicationUser, CreatedUser>().ReverseMap();
+            CreateMap<Story, EditStoryForm>().ReverseMap();
         }
     }
 }

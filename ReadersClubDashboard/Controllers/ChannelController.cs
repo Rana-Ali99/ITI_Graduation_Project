@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
 using static System.Net.Mime.MediaTypeNames;
@@ -9,9 +11,13 @@ namespace ReadersClubDashboard.Controllers
     {
         
         private readonly ReadersClubContext _context;
-        public ChannelController(ReadersClubContext context)
+        private readonly UserManager<ApplicationUser> _userManager;
+
+        public ChannelController(ReadersClubContext context
+            ,UserManager<ApplicationUser> userManager)
         {
             _context = context;
+           _userManager = userManager;
         }
 
         [HttpGet]
@@ -29,13 +35,14 @@ namespace ReadersClubDashboard.Controllers
         }
 
         [HttpGet]
-        public IActionResult AddChannel()
+        public async Task<IActionResult> AddChannel()
         {
+            ViewData["Users"] = await _userManager.Users.ToListAsync();
             return View("AddChannel");
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddChannel(Channel channelData, IFormFile imageFile)
+        public async Task<IActionResult> AddChannel(Channel channelData, IFormFile? imageFile)
         {
             if (imageFile != null && imageFile.Length > 0)
             {
@@ -60,12 +67,14 @@ namespace ReadersClubDashboard.Controllers
             }
 
             // save data
+            ModelState.Remove("User");
             if (ModelState.IsValid)
             {
                 _context.Channels.Add(channelData);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
+            ViewData["Users"] = await _userManager.Users.ToListAsync();
             return View("AddChannel", channelData); // لو فيه error في الفاليديشن
         }
 
@@ -82,9 +91,10 @@ namespace ReadersClubDashboard.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult EditeChannel(int id)
+        public async Task<IActionResult> EditeChannel(int id)
         {
             var channel = _context.Channels.Find(id);
+            ViewData["Users"] = await _userManager.Users.ToListAsync();
             return View(channel);
         }
 

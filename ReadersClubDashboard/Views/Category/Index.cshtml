@@ -4,17 +4,16 @@
 }
 @model IEnumerable<ReadersClubCore.Models.Category>
 
-<!-- تحسين النص في المنتصف -->
-<h2 class="text-center">كل التصنيفات</h2>
+<div class="container mt-1" dir="rtl">
+    <div class="mb-3 text-start">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fas fa-plus-circle p-2"></i> إضافة تصنيف 
+        </a>
+    </div>
 
-<!-- إضافة زر التصنيف الجديد -->
-<div class="text-right mt-3">
-    <a asp-action="Create" class="btn btn-primary">إضافة تصنيف جديد</a>
-</div>
-
-<!-- تحسين الجدول -->
-<table class="table table-bordered table-striped mt-3">
-    <thead class="thead-dark">
+<div class="table-responsive">
+<table class="table table-bordered table-striped text-center">
+    <thead class="table-dark">
         <tr>
             <th>الاسم</th>
             <th>تاريخ الإضافة</th>
@@ -41,3 +40,5 @@
         }
     </tbody>
 </table>
+</div>
+</div>

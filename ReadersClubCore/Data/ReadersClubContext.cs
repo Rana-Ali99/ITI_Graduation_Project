@@ -39,6 +39,16 @@ namespace ReadersClubCore.Data
                 .WithMany(x => x.Reviews)
                 .HasForeignKey(x => x.StoryId)
                 .OnDelete(DeleteBehavior.NoAction);
+            builder.Entity<Story>()
+                .HasOne(x => x.Channel)
+                .WithMany(x => x.Stories)
+                .HasForeignKey(x => x.ChannelId)
+                .OnDelete(DeleteBehavior.NoAction);
+            builder.Entity<Subscribtion>()
+                .HasOne(x => x.Channel)
+                .WithMany(x => x.Subscribtions)
+                .HasForeignKey(x => x.ChannelId)
+                .OnDelete(DeleteBehavior.NoAction);
         }
         public DbSet<Story> Stories { get; set; }
         public DbSet<Category> Categories { get; set; }

@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model ReadersClubCore.Models.Story
+<h2 class="mb-4">Update Story</h2>
+
+<form asp-action="AddStory" method="post" enctype="multipart/form-data" class="row g-3">
+    <div class="col-md-6">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" value="@Model.Title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="col-md-6">
+        <label class="form-label">Cover Image</label>
+        <input type="file" name="coverFile" class="form-control" value="@Model.Cover" />
+    </div>
+
+    <div class="col-md-12">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="col-md-12">
+        <label asp-for="Summary" class="form-label"></label>
+        <textarea asp-for="Summary" class="form-control" rows="2"></textarea>
+    </div>
+
+    <div class="col-md-6">
+        <label class="form-label">PDF File</label>
+        <input type="file" name="pdfFile" class="form-control" accept=".pdf" value="@Model.File" />
+    </div>
+
+    <div class="col-md-6">
+        <label class="form-label">Audio File (MP3)</label>
+        <input type="file" name="audioFile" class="form-control" accept=".mp3" value="@Model.Audio" />
+    </div>
+
+    <div class="col-md-4">
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <input asp-for="CategoryId" class="form-control" value="@Model.CategoryId" />
+    </div>
+
+    <div class="col-md-4">
+        <label asp-for="ChannelId" class="form-label">Channel</label>
+        <input asp-for="ChannelId" class="form-control" value="@Model.ChannelId" />
+    </div>
+
+    <div class="col-md-4">
+        <label asp-for="UserId" class="form-label">User</label>
+        <input asp-for="UserId" class="form-control" value="@Model.UserId" />
+    </div>
+
+    <div class="col-md-12 text-end">
+        <button type="submit" class="btn btn-success px-5">Save</button>
+    </div>
+</form>
+

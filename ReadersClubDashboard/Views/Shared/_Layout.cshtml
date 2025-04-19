@@ -6,12 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="./css/Channel.css" />
-    <style>
-        <!-- move global codel to global css file *(site.css) -->
-    </style>
+ 
 </head>
 <body>
 
@@ -19,12 +18,31 @@
     <div class="sidebar">
         <h4 class="text-center">نادي القراء</h4>
         <div class="Sidebar-links">
-            <a href="@Url.Action("Index", "Dashboard")">لوحة التحكم</a>
+            @if (User.IsInRole("admin"))
+            {
+                <a href="@Url.Action("Index", "Category")">التصنيفات</a>
+            }
             <a href="@Url.Action("AddStory", "Story")">إضافة رواية</a>
+            @if(User.IsInRole("admin"))
+            {
             <a href="@Url.Action("Stories", "Story")">قائمة الروايات</a>
-            <a href="@Url.Action("Index", "Category")">التصنيفات</a>
+            }
+            else
+            {
+                <a href="@Url.Action("AuthorStories", "Story")">قائمة الروايات</a>
+
+            }
+            @if (User.IsInRole("admin"))
+            {
+                <a href="@Url.Action("MostViewedStories", "Story")">الروايات الأكثر مشاهده</a>
+            }
+            else
+            {
+                <a href="@Url.Action("MostViewedAuthorStories", "Story")">الروايات الأكثر مشاهده</a>
+            }
             <a href="@Url.Action("Index", "Reviews")">التقييمات</a>
-           @User.IsInRole("admin"){
+           @if(User.IsInRole("admin"))
+           {
             <a href="@Url.Action("Index", "User")">المستخدمين</a>
            }
             <a href="@Url.Action("Index", "Channel")">القنوات</a>
@@ -43,7 +61,7 @@
             @RenderBody()
         </div>
     </div>
-    
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     @RenderSection("Scripts", required: false)

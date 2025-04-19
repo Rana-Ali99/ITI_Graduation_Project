@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\ReadersClubDashboard.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\ca2da9ac-b5aa-4b7c-8d0c-12f5d5c75597.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\ca2da9ac-b5aa-4b7c-8d0c-12f5d5c75597.jpeg"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\16647e55-a326-493f-b75a-bba3ffb66939.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\16647e55-a326-493f-b75a-bba3ffb66939.png"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7b686b01-a070-46f8-8fa4-70e37f802f2e.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\7b686b01-a070-46f8-8fa4-70e37f802f2e.png"
+    },
+    {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png",
       "PackagePath": "staticwebassets\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png"
     },
     {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\not_found.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Users\\not_found.jpg"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf"
     },
     {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\Channel.css",
