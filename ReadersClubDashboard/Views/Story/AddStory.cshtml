@@ -71,9 +71,18 @@
                     <button type="submit" class="btn btn-primary px-4">
                         <i class="fas fa-user-plus"></i> إضافة
                     </button>
-                    <a asp-action="Index" class="btn btn-secondary px-4">
-                        <i class="fas fa-arrow-left"></i> العودة
-                    </a>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <a asp-action="Stories" class="btn btn-secondary px-4">
+                            <i class="fas fa-arrow-left"></i> العودة إلى القائمة
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-action="AuthorStories" class="btn btn-secondary px-4">
+                            <i class="fas fa-arrow-left"></i> العودة إلى القائمة
+                        </a>
+                    }
                 </div>
 </form>
 </div>

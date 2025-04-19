@@ -36,6 +36,11 @@ namespace ReadersClubDashboard.Controllers
         }
 
         #region Actions For both
+        public IActionResult Details(int id)
+        {
+            var story = storyService.GetStoryById(id);
+            return View(story);
+        }
         [Authorize]
         public async Task<IActionResult> AddStory()
         {
@@ -83,6 +88,7 @@ namespace ReadersClubDashboard.Controllers
                 {
                     //filter with isvalid & isactive
                     model.IsValid = true;
+                    model.Status = Status.Approved;
                 }else
                 {
                     model.IsValid = false;
@@ -104,7 +110,14 @@ namespace ReadersClubDashboard.Controllers
                     ChannelId = model.ChannelId,
                 };
                 storyService.AddStory(story);
-                return RedirectToAction("Stories");
+                if (User.IsInRole("admin"))
+                {
+                    return RedirectToAction("Stories");
+                }
+                else
+                {
+                    return RedirectToAction("AuthorStories");
+                }
             }
             model.Categories = await categoryService.GetAllAsync();
             model.Channels = await channelService.GetAllChannels();
@@ -167,6 +180,7 @@ namespace ReadersClubDashboard.Controllers
                     if (User.IsInRole("admin"))
                     {
                         story.IsValid = true;
+                        story.Status = Status.Approved;
                     }
                     else { story.IsValid = false; }
                     storyService.UpdateStory(story);
@@ -220,6 +234,7 @@ namespace ReadersClubDashboard.Controllers
             var stories = storyService.GetAllStories();
             return View("Stories", stories);
         }
+
         //Most Viewed Stories for Admin
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> MostViewedStories()
@@ -232,7 +247,64 @@ namespace ReadersClubDashboard.Controllers
         public async Task<IActionResult> MostRatedStories()
         {
             var stories = await storyService.MostRatedStories();
-            return View(stories);
+            return View("Stories" , stories);
+        }
+        public IActionResult GetInValidStories()
+        {
+            var stories = storyService.GetInValidStories();
+            return View("Stories", stories);
+        }
+        public IActionResult GetInActiveStories()
+        {
+            var stories = storyService.GetInActiveStories();
+            return View("Stories", stories);
+        }
+        //Approve Story
+        public IActionResult ApproveStory(int id)
+        {
+            var story = storyService.GetStoryById(id);
+            if (story == null)
+            {
+                return NotFound();
+            }
+            story.IsValid = true;
+            story.Status = Status.Approved;
+            storyService.UpdateStory(story);
+            return RedirectToAction("Stories");
+        }
+        public IActionResult RejectStory(int id)
+        {
+            var story = storyService.GetStoryById(id);
+            if (story == null)
+            {
+                return NotFound();
+            }
+            story.IsValid = false;
+            story.Status = Status.Rejected;
+            storyService.UpdateStory(story);
+            return RedirectToAction("Stories");
+        }
+        public IActionResult ActivateStory(int id)
+        {
+            var story = storyService.GetStoryById(id);
+            if (story == null)
+            {
+                return NotFound();
+            }
+            story.IsActive = true;
+            storyService.UpdateStory(story);
+            return RedirectToAction("Stories");
+        }
+        public IActionResult Disable(int id)
+        {
+            var story = storyService.GetStoryById(id);
+            if (story == null)
+            {
+                return NotFound();
+            }
+            story.IsActive = false;
+            storyService.UpdateStory(story);
+            return RedirectToAction("Stories");
         }
         #endregion
         #region Actions For Author
@@ -243,7 +315,7 @@ namespace ReadersClubDashboard.Controllers
             var user = User.Identity.Name;
             var author = await _userManager.FindByNameAsync(user);
             var stories = storyService.GetAllStories(author.Id);
-            return View(stories);
+            return View("Stories",stories);
         }
         //Most Viewed Stories for Author
         [Authorize(Roles = "author")]
@@ -252,7 +324,7 @@ namespace ReadersClubDashboard.Controllers
             var user = User.Identity.Name;
             var author = await _userManager.FindByNameAsync(user);
             var stories = await storyService.MostViewedStories(author.Id);
-            return View(stories);
+            return View("Stories", stories);
         }
         //Most Rated Stories for Author
         [Authorize(Roles = "author")]
@@ -261,13 +333,15 @@ namespace ReadersClubDashboard.Controllers
             var user = User.Identity.Name;
             var author = await _userManager.FindByNameAsync(user);
             var stories = await storyService.MostRatedStories(author.Id);
-            return View(stories);
+            return View("Stories",stories);
         }
+
+        
 
         #endregion
     }
 }
-//Edit for story  --nagham
+//Edit for story  done
 //Handle View of Most Rated and Viewed 
 //Action of Story Reviews of author
 //Action (Confirm Stories) for admin
@@ -275,3 +349,4 @@ namespace ReadersClubDashboard.Controllers
 //Edit style of dashboard
 //transform to arabic
 //Details for story
+//View For delete

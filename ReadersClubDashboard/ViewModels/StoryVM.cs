@@ -7,6 +7,6 @@ namespace ReadersClubDashboard.ViewModels
     public class StoryVM
     {
         public Story Story { get; set; }
-        public double AverageRating { get; set; }
+        public double? AverageRating { get; set; }
     }
 }

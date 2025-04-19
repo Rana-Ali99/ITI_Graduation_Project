@@ -5,7 +5,7 @@ namespace ReadersClubDashboard.ViewModels
 {
     public class EditStoryForm
     {
-
+        public int Id { get; set; }
         [MaxLength(200)]
         [Required(ErrorMessage = "يجب ادخال عنوان الروايه")]
         [Display(Name = "عنوان الروايه")]
@@ -24,7 +24,8 @@ namespace ReadersClubDashboard.ViewModels
         [Required(ErrorMessage = "يجب ادخال ملخص الروايه")]
         [Display(Name = "ملخص الروايه")]
         public string Summary { get; set; }
-        public bool IsActive { get; set; }  //Writer
+        public bool IsActive { get; set; } = true;
+        public Status Status { get; set; } = Status.Pending;
         public bool IsValid { get; set; } = false;  //Should be true , Admin determine accept story or not
         [Required]
         public int CategoryId { get; set; }

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using ReadersClubCore.Data;
 using ReadersClubCore.DataSeed;
 using ReadersClubCore.Models;
+using ReadersClubDashboard.Helper;
 using ReadersClubDashboard.Service;
 using ReadersClubDashboard.Sevice;
 using System.Reflection;
@@ -28,7 +29,7 @@ namespace ReadersClubDashboard
                 options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             );
             //Auto Mapper
-            builder.Services.AddAutoMapper(typeof(Assembly));
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
             #region Identity
             builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddEntityFrameworkStores<ReadersClubContext>()

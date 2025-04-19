@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\ReadersClubDashboard.bundle.scp.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\ca2da9ac-b5aa-4b7c-8d0c-12f5d5c75597.jpeg",
-      "PackagePath": "staticwebassets\\Uploads\\Covers\\ca2da9ac-b5aa-4b7c-8d0c-12f5d5c75597.jpeg"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg"
     },
     {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\16647e55-a326-493f-b75a-bba3ffb66939.png",
@@ -29,8 +33,16 @@
       "PackagePath": "staticwebassets\\Uploads\\audios\\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3"
     },
     {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\fad7c46b-5471-423f-92d0-fa052540b17d.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\fad7c46b-5471-423f-92d0-fa052540b17d.mp3"
+    },
+    {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf",
       "PackagePath": "staticwebassets\\Uploads\\pdfs\\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\ac46aa56-d8c5-42af-bd6d-04b846549193.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\ac46aa56-d8c5-42af-bd6d-04b846549193.pdf"
     },
     {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\Channel.css",

@@ -18,12 +18,11 @@ namespace ReadersClubDashboard.Service
         public Story GetStoryById(int id)
         {
             return _context
-                .Stories
+                .Stories.
+                Where(x => x.IsDeleted == false)
                 .Include(c => c.Category)
                 .Include(c => c.Channel)
-                .Where(x => x.IsValid == true 
-                && x.IsDeleted == false
-                &&x.IsActive == true)
+                .Include(u => u.User)
                 .FirstOrDefault(s => s.Id == id);
         }
 
@@ -48,7 +47,7 @@ namespace ReadersClubDashboard.Service
         #endregion
 
         #region Methods For Admin
-        public List<Story> GetAllStories()
+        public List<StoryVM> GetAllStories()
         {
             return _context.Stories
                 .Include(c => c.Category)
@@ -56,36 +55,72 @@ namespace ReadersClubDashboard.Service
                 .Where(x => x.IsDeleted == false
                         && x.IsValid == true
                         && x.IsActive == true)
+                 .Select(x => new StoryVM
+                 {
+                     Story = x,
+                     AverageRating = x.Reviews.Average(r => r.Rating)
+                 })
                 .ToList();
         }
-       
+       //Is not valid Stories
+       public List<StoryVM> GetInValidStories()
+        {
+            return _context.Stories
+               .Include(c => c.Category)
+                .Include(c => c.Channel)
+                .Where(x => x.IsDeleted == false
+                        && x.IsValid == false
+                        && x.IsActive == true
+                        && x.Status == Status.Pending)
+                 .Select(x => new StoryVM
+                 {
+                     Story = x,
+                     AverageRating = x.Reviews.Average(r => r.Rating)
+                 })
+                .ToList();
+        }
+
+        public List<Story> GetInActiveStories()
+        {
+            return _context.Stories
+                .Where(x => x.IsDeleted == false
+                && x.IsActive == false
+                && x.IsValid == true)
+                .ToList();
+        }
         // القصص الأكثر مشاهده للأدمن
-        public async Task<IEnumerable<Story>> MostViewedStories()
+        public async Task<IEnumerable<StoryVM>> MostViewedStories()
         {
             var stories = await _context.Stories
                 .Where(x => x.IsDeleted == false
                 && x.IsValid == true
                 && x.IsActive == true)
+                .Include(c => c.Category)
+                .Select(x => new StoryVM
+                {
+                    Story = x,
+                    AverageRating = x.Reviews.Average(r => r.Rating)
+                })
+                .OrderByDescending(x => x.Story.ViewsCount)
                 .Take(15)
-                .OrderByDescending(x => x.ViewsCount)
                 .ToListAsync();
             return stories;
         }
 
         // القصص الأكثر تقييما للأدمن
-        public async Task<IEnumerable<Story>> MostRatedStories()
+        public async Task<IEnumerable<StoryVM>> MostRatedStories()
         {
             var stories = await _context.Stories
                 .Where(x => x.IsValid == true
                 && x.IsDeleted == false
                 && x.IsActive == true)
+                .Include(c => c.Category)
                 .Select(x => new StoryVM
                 {
                     Story = x,
                     AverageRating = x.Reviews.Average(r => r.Rating)
                 })
                 .OrderByDescending(x => x.AverageRating)
-                .Select(x => x.Story)
                 .Take(15)
                 .ToListAsync();
             return stories;
@@ -115,7 +150,7 @@ namespace ReadersClubDashboard.Service
 
         #region Methods For Author
 
-        public List<Story> GetAllStories(int userId)
+        public List<StoryVM> GetAllStories(int userId)
         {
             return _context.Stories
                 .Include(c => c.Category)
@@ -124,17 +159,28 @@ namespace ReadersClubDashboard.Service
                 && x.IsDeleted == false 
                 && x.IsValid == true
                 && x.IsActive == true)
+                 .Select(x => new StoryVM
+                 {
+                     Story = x,
+                     AverageRating = x.Reviews.Average(r => r.Rating)
+                 })
                 .ToList();
         }
         // القصص الأكثر مشاهده للكاتب
-        public async Task<IEnumerable<Story>> MostViewedStories(int userId)
+        public async Task<IEnumerable<StoryVM>> MostViewedStories(int userId)
         {
             var stories = await _context.Stories
                 .Where(x => x.IsDeleted == false
                 && x.IsValid == true
                 && x.UserId == userId
                 && x.IsActive == true)
-                .OrderByDescending(x => x.ViewsCount)
+                .Include(c => c.Category)
+                 .Select(x => new StoryVM
+                 {
+                     Story = x,
+                     AverageRating = x.Reviews.Average(r => r.Rating)
+                 })
+                .OrderByDescending(x => x.Story.ViewsCount)
                 .Take(15)
                 .ToListAsync();
             return stories;
@@ -142,20 +188,20 @@ namespace ReadersClubDashboard.Service
         }
        
         // القصص الأكثر تقييما للكاتب
-        public async Task<IEnumerable<Story>> MostRatedStories(int userId)
+        public async Task<IEnumerable<StoryVM>> MostRatedStories(int userId)
         {
             var stories = await _context.Stories
                 .Where(x => x.IsValid == true
                 && x.IsDeleted == false
                 && x.UserId == userId
                 && x.IsActive == true)
+                .Include(c => c.Category)
                 .Select(x => new StoryVM
                 {
                     Story = x,
                     AverageRating = x.Reviews.Average(r => r.Rating)
                 })
                 .OrderByDescending(x => x.AverageRating)
-                .Select(x => x.Story)
                 .Take(15)
                 .ToListAsync();
             return stories;
