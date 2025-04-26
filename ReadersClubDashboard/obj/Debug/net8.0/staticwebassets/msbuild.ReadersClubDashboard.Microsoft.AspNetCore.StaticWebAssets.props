@@ -1008,12 +1008,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ReadersClubDashboard.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3))">
       <SourceType>Package</SourceType>
       <SourceId>ReadersClubDashboard</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ReadersClubDashboard</BasePath>
-      <RelativePath>Uploads/audios/bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3</RelativePath>
+      <RelativePath>Uploads/audios/511450dd-7aae-4980-a3eb-8b4e517d925f.mp3</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1022,14 +1022,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\fad7c46b-5471-423f-92d0-fa052540b17d.mp3))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3))">
       <SourceType>Package</SourceType>
       <SourceId>ReadersClubDashboard</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ReadersClubDashboard</BasePath>
-      <RelativePath>Uploads/audios/fad7c46b-5471-423f-92d0-fa052540b17d.mp3</RelativePath>
+      <RelativePath>Uploads/audios/c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1038,14 +1038,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\fad7c46b-5471-423f-92d0-fa052540b17d.mp3))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\audios\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ChannelsImages\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ReadersClubDashboard</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ReadersClubDashboard</BasePath>
-      <RelativePath>Uploads/Covers/409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg</RelativePath>
+      <RelativePath>Uploads/ChannelsImages/2dcc227f-d35f-4c65-8365-24a693aa2144.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1054,14 +1054,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ChannelsImages\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ChannelsImages\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ReadersClubDashboard</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ReadersClubDashboard</BasePath>
-      <RelativePath>Uploads/Covers/cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg</RelativePath>
+      <RelativePath>Uploads/ChannelsImages/9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1070,14 +1070,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ChannelsImages\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ChannelsImages\welcome-image.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>ReadersClubDashboard</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ReadersClubDashboard</BasePath>
-      <RelativePath>Uploads/pdfs/8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf</RelativePath>
+      <RelativePath>Uploads/ChannelsImages/welcome-image.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1086,14 +1086,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ChannelsImages\welcome-image.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\ac46aa56-d8c5-42af-bd6d-04b846549193.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>ReadersClubDashboard</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ReadersClubDashboard</BasePath>
-      <RelativePath>Uploads/pdfs/ac46aa56-d8c5-42af-bd6d-04b846549193.pdf</RelativePath>
+      <RelativePath>Uploads/Covers/3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1102,7 +1102,55 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\ac46aa56-d8c5-42af-bd6d-04b846549193.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadersClubDashboard</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadersClubDashboard</BasePath>
+      <RelativePath>Uploads/Covers/49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Covers\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadersClubDashboard</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadersClubDashboard</BasePath>
+      <RelativePath>Uploads/pdfs/4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadersClubDashboard</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadersClubDashboard</BasePath>
+      <RelativePath>Uploads/pdfs/c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\pdfs\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\16647e55-a326-493f-b75a-bba3ffb66939.png))">
       <SourceType>Package</SourceType>

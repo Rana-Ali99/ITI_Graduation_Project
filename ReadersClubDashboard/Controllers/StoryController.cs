@@ -11,6 +11,7 @@ using ReadersClubDashboard.ViewModels;
 
 namespace ReadersClubDashboard.Controllers
 {
+    [Authorize]
     public class StoryController : Controller
     {
         private readonly StoryService storyService;
@@ -62,7 +63,7 @@ namespace ReadersClubDashboard.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddStory(CreateStoryForm model)
         {
             if (ModelState.IsValid)
@@ -126,7 +127,6 @@ namespace ReadersClubDashboard.Controllers
             return View(model);
         }
 
-        [Authorize]
         public async Task<IActionResult> UpdateStory(int id)
         {
             var story = storyService.GetStoryById(id);
@@ -151,7 +151,7 @@ namespace ReadersClubDashboard.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateStory(EditStoryForm model)
         {
             if (ModelState.IsValid)
@@ -213,16 +213,32 @@ namespace ReadersClubDashboard.Controllers
                 .ToListAsync();
             return View(model);
         }
-        public async Task<IActionResult> Delete(int id)
+
+        public IActionResult Delete(int id)
         {
-            var story =  storyService.GetStoryById(id);
-            if (story == null)
+            return Details(id);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(Story story)
+        {
+            try
             {
-                return NotFound();
+                story.IsDeleted = true;
+                storyService.UpdateStory(story);
+                if (User.IsInRole("admin"))
+                {
+                    return RedirectToAction("Stories");
+                }
+                else
+                {
+                    return RedirectToAction("AuthorStories");
+                }
             }
-            story.IsDeleted = true;
-            storyService.UpdateStory(story);
-            return RedirectToAction("Stories");
+            catch
+            {
+                return View(story);
+            }
         }
 
         #endregion

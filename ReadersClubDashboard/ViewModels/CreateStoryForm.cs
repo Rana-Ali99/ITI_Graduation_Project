@@ -13,6 +13,7 @@ namespace ReadersClubDashboard.ViewModels
         public IFormFile coverFile { get; set; } //For Cover Image
         public string? Cover { get; set; }
         [Required(ErrorMessage = "يجب ادخال وصف الروايه")]
+        [Display(Name = "وصف الروايه")]
         public string Description { get; set; }
         [RegularExpression(@"^.*\.(pdf|PDF)$", ErrorMessage = "Only PDF files are allowed.")]
         public string? File { get; set; }

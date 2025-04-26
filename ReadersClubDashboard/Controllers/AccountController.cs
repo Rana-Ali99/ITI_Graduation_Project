@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ReadersClubCore.Data;
@@ -75,7 +76,7 @@ namespace ReadersClubDashboard.Controllers
             }
             return View(user);
         }
-
+        [Authorize]
         public async Task<IActionResult> LogOut()
         {
            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);

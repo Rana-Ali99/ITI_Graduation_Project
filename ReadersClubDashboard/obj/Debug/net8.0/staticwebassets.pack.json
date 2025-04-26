@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\ReadersClubDashboard.bundle.scp.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg",
-      "PackagePath": "staticwebassets\\Uploads\\Covers\\409dd4a2-3bef-4387-9746-aa00ae31ca68.jpeg"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ChannelsImages\\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg",
-      "PackagePath": "staticwebassets\\Uploads\\Covers\\cb45cb59-72e2-4987-9a3c-ac3d137f85fb.jpeg"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ChannelsImages\\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\welcome-image.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\ChannelsImages\\welcome-image.jpeg"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg"
+    },
+    {
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg"
     },
     {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\16647e55-a326-493f-b75a-bba3ffb66939.png",
@@ -29,20 +41,20 @@
       "PackagePath": "staticwebassets\\Uploads\\Users\\not_found.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3",
-      "PackagePath": "staticwebassets\\Uploads\\audios\\bb11ecf3-3dd0-4a8d-8a70-e256572e1110.mp3"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\fad7c46b-5471-423f-92d0-fa052540b17d.mp3",
-      "PackagePath": "staticwebassets\\Uploads\\audios\\fad7c46b-5471-423f-92d0-fa052540b17d.mp3"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf",
-      "PackagePath": "staticwebassets\\Uploads\\pdfs\\8d5ec1cf-7055-4cb0-94c8-43ee97d3afa5.pdf"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\ac46aa56-d8c5-42af-bd6d-04b846549193.pdf",
-      "PackagePath": "staticwebassets\\Uploads\\pdfs\\ac46aa56-d8c5-42af-bd6d-04b846549193.pdf"
+      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf"
     },
     {
       "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\Channel.css",

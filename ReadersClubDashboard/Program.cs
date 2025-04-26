@@ -19,6 +19,7 @@ namespace ReadersClubDashboard
             builder.Services.AddScoped<CategoryService>();
             builder.Services.AddScoped<StoryService>();
             builder.Services.AddScoped<ChannelService>();
+            builder.Services.AddScoped<ReviewService>();
 
             // Add services to the container.
             #region Services
@@ -92,7 +93,7 @@ namespace ReadersClubDashboard
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Dashboard}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }

@@ -1,39 +1,56 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
+using ReadersClubDashboard.Sevice;
 using static System.Net.Mime.MediaTypeNames;
 namespace ReadersClubDashboard.Controllers
 {
     //handling channels
+    [Authorize]
     public class ChannelController : Controller
     {
         
         private readonly ReadersClubContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ChannelService _channelService;
 
         public ChannelController(ReadersClubContext context
-            ,UserManager<ApplicationUser> userManager)
+            ,UserManager<ApplicationUser> userManager
+            ,ChannelService channelService)
         {
             _context = context;
            _userManager = userManager;
+            _channelService = channelService;
         }
 
         [HttpGet]
-        public IActionResult Index()
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> Index()
         {
-            var channels = _context.Channels.ToList();
-            int numberOfChannels = _context.Channels.Count();
-            var numberOfDeletedChannels = _context.Channels.Where(c => c.IsDeleted == true).Count();
-            ViewData["NumberOfChannels"] = numberOfChannels - numberOfDeletedChannels;
-
+            var channels = await _channelService.GetAllChannels();
             if (channels.Any())
                 return View(channels);
             else
                 return View("NoChannels");
         }
-
+        [Authorize(Roles = "author")]
+        public async Task<IActionResult> AuthorChannels()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var channels = await _channelService.GetAuthorChannels(user.Id);
+            if (channels.Any())
+                return View("Index",channels);
+            else
+                return View("NoChannels");
+        }
+        public IActionResult Details(int id)
+        {
+            var channel = _channelService.GetChannel(id);
+            return View(channel);
+        }
         [HttpGet]
         public async Task<IActionResult> AddChannel()
         {
@@ -42,6 +59,7 @@ namespace ReadersClubDashboard.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddChannel(Channel channelData, IFormFile? imageFile)
         {
             if (imageFile != null && imageFile.Length > 0)
@@ -72,38 +90,62 @@ namespace ReadersClubDashboard.Controllers
             {
                 _context.Channels.Add(channelData);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
+                if (User.IsInRole("admin"))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return RedirectToAction("AuthorChannels");
+                }
             }
             ViewData["Users"] = await _userManager.Users.ToListAsync();
             return View("AddChannel", channelData); // لو فيه error في الفاليديشن
         }
 
         [HttpGet]
-        public RedirectToActionResult DeleteChannel(int id)
+        public IActionResult DeleteChannel(int id)
         {
-            // make softe delete using isDeleted property
-            var channel = _context.Channels.Find(id);
-            if (channel != null)
+            return Details(id);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteChannel(Channel channel)
+        {
+            try
             {
-                channel.IsDeleted = true;
+                _context.Channels.Remove(channel);
                 _context.SaveChanges();
+                if (User.IsInRole("admin"))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return RedirectToAction("AuthorChannels");
+                }
             }
-            return RedirectToAction("Index");
+            catch
+            {
+                return View(channel);
+            }
         }
 
-        public async Task<IActionResult> EditeChannel(int id)
+        public async Task<IActionResult> EditChannel(int id)
         {
-            var channel = _context.Channels.Find(id);
+            var channel = _channelService.GetChannel(id);
             ViewData["Users"] = await _userManager.Users.ToListAsync();
             return View(channel);
         }
 
         [HttpPost]
-        public IActionResult EditeChannel(int id, Channel channelData, IFormFile imageFile)
+        [ValidateAntiForgeryToken]
+        public IActionResult EditChannel(int id, Channel channelData, IFormFile? imageFile)
         {
             var channel = _context.Channels.Find(id);
             if (imageFile != null && imageFile.Length > 0)
             {
+
                 var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/ChannelsImages");
 
                 //check if the folder exists or not, if not will create it
@@ -126,9 +168,17 @@ namespace ReadersClubDashboard.Controllers
 
             channel.Name = channelData.Name;
             channel.Description = channelData.Description;
-
+            channel.UserId = channelData.UserId;
+            _context.Update(channel);
             _context.SaveChanges();
-            return RedirectToAction("Index");
+            if (User.IsInRole("admin"))
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("AuthorChannels");
+            }
 
         }
     }

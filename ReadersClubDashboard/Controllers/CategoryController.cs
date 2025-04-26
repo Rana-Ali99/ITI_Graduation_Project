@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ReadersClubCore.Models;
 using ReadersClubDashboard.Service;
 
 namespace ReadersClubDashboard.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly CategoryService _categoryService;

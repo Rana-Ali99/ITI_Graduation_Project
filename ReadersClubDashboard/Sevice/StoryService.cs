@@ -54,7 +54,8 @@ namespace ReadersClubDashboard.Service
                 .Include(c => c.Channel)
                 .Where(x => x.IsDeleted == false
                         && x.IsValid == true
-                        && x.IsActive == true)
+                        && x.IsActive == true
+                        && x.Status == Status.Approved)
                  .Select(x => new StoryVM
                  {
                      Story = x,
@@ -126,6 +127,14 @@ namespace ReadersClubDashboard.Service
             return stories;
 
         }
+        public Task<int> GetStoriesCount()
+        {
+            return _context.Stories
+                .Where(x => x.IsDeleted == false
+                && x.IsValid == true
+                && x.Status == Status.Approved)
+                .CountAsync();
+        }
         public List<Story> GetStoriesByCategory(int categoryId)
         {
             return _context.Stories.Where(s => s.CategoryId == categoryId).ToList();
@@ -158,6 +167,7 @@ namespace ReadersClubDashboard.Service
                 .Where(x => x.UserId == userId 
                 && x.IsDeleted == false 
                 && x.IsValid == true
+                && x.Status == Status.Approved
                 && x.IsActive == true)
                  .Select(x => new StoryVM
                  {
@@ -186,7 +196,15 @@ namespace ReadersClubDashboard.Service
             return stories;
 
         }
-       
+        public Task<int> GetAuthorStoriesCount(int id)
+        {
+            return _context.Stories
+                .Where(x => x.IsDeleted == false
+                && x.IsValid == true
+                && x.Status == Status.Approved
+                && x.UserId == id)
+                .CountAsync();
+        }
         // القصص الأكثر تقييما للكاتب
         public async Task<IEnumerable<StoryVM>> MostRatedStories(int userId)
         {

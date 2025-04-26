@@ -25,5 +25,27 @@ namespace ReadersClubDashboard.Sevice
                 && x.UserId == userId)
                 .ToListAsync();
         }
+        public async Task<int> GetChannelsCount()
+        {
+            return await _context.Channels
+                .Where(x => x.IsDeleted == false)
+                .CountAsync();
+        }
+        public async Task<int> GetAuthorChannelsCount(int userId)
+        {
+            return await _context.Channels
+                .Where(x => x.IsDeleted == false
+                && x.UserId == userId)
+                .CountAsync();
+        }
+
+        public Channel GetChannel(int id)
+        {
+            var channel = _context.Channels
+                .Include(x => x.User)
+                .FirstOrDefault(x => x.Id == id
+                && x.IsDeleted == false);
+            return channel;
+        }
     }
 }

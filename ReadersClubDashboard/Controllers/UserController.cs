@@ -12,6 +12,7 @@ using System.Data;
 
 namespace ReadersClubDashboard.Controllers
 {
+    [Authorize]
     public class UserController : Controller
     {
         private readonly IMapper _mapper;
@@ -136,17 +137,51 @@ namespace ReadersClubDashboard.Controllers
             return View(userViewModel);
         }
 
-        //public async Task<IActionResult> Edit(int id)
-        //{
-        //    var existedUser = await _userManager.Users
-        //        .Where(x => x.Id == id)
-        //        .FirstOrDefaultAsync();
-        //    if (existedUser == null)
-        //    {
-        //        return RedirectToAction("Index");
-        //    }
+        public async Task<IActionResult> Edit(int id)
+        {
+            var existedUser = await _userManager.Users
+                .Where(x => x.Id == id)
+                .FirstOrDefaultAsync();
+            if (existedUser == null)
+            {
+                return RedirectToAction("Index");
+            }
+            return View(existedUser);
+        }
 
-        //}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(ApplicationUser application, IFormFile? formFile)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var user = await _userManager.FindByIdAsync(application.Id.ToString());
+                    if (formFile != null)
+                    {
+                        FileSettings.DeleteFile("Users",user.Image);
+                        application.Image = Guid.NewGuid().ToString() + Path.GetExtension(formFile.FileName);
+                        application.Image = FileSettings.UploadFile(formFile, "Users", _environment.WebRootPath);
+                    }
+                    user.Name = application.Name;
+                    user.UserName = application.UserName;
+                    user.PhoneNumber = application.PhoneNumber;
+                    user.Email = application.Email;
+                    user.Image = application.Image;
+                    var result = await _userManager.UpdateAsync(user);
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("Index");
+                    }
+                }
+                catch
+                {
+                    ModelState.AddModelError(string.Empty, "Failed to update user");
+                }
+            }
+            return View(application);
+        }
         public async Task<IActionResult> Delete(int id)
         {
             var existedUser = await _userManager.Users
