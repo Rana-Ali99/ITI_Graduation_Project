@@ -31,20 +31,16 @@ namespace ReadersClubDashboard.Controllers
         public async Task<IActionResult> Index()
         {
             var channels = await _channelService.GetAllChannels();
-            if (channels.Any())
                 return View(channels);
-            else
-                return View("NoChannels");
+           
         }
         [Authorize(Roles = "author")]
         public async Task<IActionResult> AuthorChannels()
         {
             var user = await _userManager.GetUserAsync(User);
             var channels = await _channelService.GetAuthorChannels(user.Id);
-            if (channels.Any())
-                return View("Index",channels);
-            else
-                return View("NoChannels");
+            return View("Index",channels);
+            
         }
         public IActionResult Details(int id)
         {

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "CvN+Mhuu9SiymxVJn/hEH7GtZKliChrfxkTePJlUuFs=",
+=======
+  "Hash": "ecOJSVGZeWViukeH4x8E5eNG1/xYCbEKcGWGn98vSbU=",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
   "Source": "ReadersClubDashboard",
   "BasePath": "_content/ReadersClubDashboard",
   "Mode": "Default",
@@ -164,6 +168,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
@@ -333,6 +338,9 @@
     },
     {
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
@@ -836,7 +844,163 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
@@ -1109,12 +1273,20 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
       "BasePath": "_content/ReadersClubDashboard",
+<<<<<<< HEAD
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
+=======
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1127,15 +1299,23 @@
       "Integrity": "KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
       "BasePath": "_content/ReadersClubDashboard",
+<<<<<<< HEAD
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
+=======
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1148,15 +1328,23 @@
       "Integrity": "zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
       "BasePath": "_content/ReadersClubDashboard",
+<<<<<<< HEAD
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
+=======
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1169,6 +1357,7 @@
       "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -1191,6 +1380,9 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
     },
     {
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1298,12 +1490,20 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
       "BasePath": "_content/ReadersClubDashboard",
+<<<<<<< HEAD
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
+=======
+      "RelativePath": "lib/jquery/dist/jquery.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1316,15 +1516,23 @@
       "Integrity": "xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
       "BasePath": "_content/ReadersClubDashboard",
+<<<<<<< HEAD
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
+=======
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1337,15 +1545,23 @@
       "Integrity": "RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "SourceId": "ReadersClubDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\",
       "BasePath": "_content/ReadersClubDashboard",
+<<<<<<< HEAD
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
+=======
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
+>>>>>>> 63515099177e0dfcbd3c7d923a991181b66c1445
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1358,7 +1574,26 @@
       "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "ReadersClubDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\",
+      "BasePath": "_content/ReadersClubDashboard",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\271c33b3-be33-49d1-aaf8-b34ea69dfb30.mp3",

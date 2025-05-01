@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ReadersClubApi.Services;
+using ReadersClubApi.Helper;
+using ReadersClubApi.Service;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
 
@@ -8,40 +9,35 @@ namespace ReadersClubApi
 {
     public class Program
     {
-        //F:\ITI-4months\Graduation Project\Dashboard\ReadersClubDashboard\
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
             builder.Services.AddControllers();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
             builder.Services.AddDbContext<ReadersClubContext>(
                 options =>
-                    options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
+                options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             );
-
-            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+            builder.Services.AddScoped<TokenConfiguration>();
+            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(
+                options=>
+                {
+                    options.Password.RequireDigit = true;
+                    options.Password.RequireLowercase = true;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequireUppercase = true;
+                    options.Password.RequiredLength = 8;
+                })
                 .AddEntityFrameworkStores<ReadersClubContext>()
                 .AddDefaultTokenProviders();
-
-            builder.Services.AddScoped<StoryService>();
-
-            // ”Ì«”… CORS  ”„Õ · ÿ»Ìﬁ Angular ⁄·Ï localhost:4200
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowLocalhost",
-                    policy => policy.WithOrigins("http://localhost:4200") // «·”„«Õ ·‹ Angular
-                                    .AllowAnyHeader()
-                                    .AllowAnyMethod());
-            });
-
+            builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+            builder.Services.AddScoped<IMailService, MailService>();
             var app = builder.Build();
-
-            //  ›⁄Ì· CORS
-            app.UseCors("AllowLocalhost");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -51,12 +47,10 @@ namespace ReadersClubApi
             }
 
             app.UseHttpsRedirection();
-            app.UseRouting();
 
-            app.UseStaticFiles();
-
-
+            app.UseAuthentication(); 
             app.UseAuthorization();
+
 
             app.MapControllers();
 
