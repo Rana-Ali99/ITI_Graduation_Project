@@ -1,6 +1,7 @@
-
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReadersClubApi.Helper;
+using ReadersClubApi.Service;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
 
@@ -22,9 +23,20 @@ namespace ReadersClubApi
                 options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             );
-            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+            builder.Services.AddScoped<TokenConfiguration>();
+            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(
+                options=>
+                {
+                    options.Password.RequireDigit = true;
+                    options.Password.RequireLowercase = true;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequireUppercase = true;
+                    options.Password.RequiredLength = 8;
+                })
                 .AddEntityFrameworkStores<ReadersClubContext>()
                 .AddDefaultTokenProviders();
+            builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+            builder.Services.AddScoped<IMailService, MailService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -36,6 +48,7 @@ namespace ReadersClubApi
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
 
