@@ -47,7 +47,7 @@ namespace ReadersClubApi
             {
                 options.AddPolicy("AllowDashboard", policy =>
                 {
-                    policy.WithOrigins("http://localhost:3795")
+                    policy.WithOrigins("http://localhost:9176")
                           .AllowAnyHeader()
                           .AllowAnyMethod();
                 });
@@ -65,7 +65,6 @@ namespace ReadersClubApi
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            // ✅ استخدام سياسة CORS قبل Authentication
             app.UseCors("AllowDashboard");
 
             app.UseAuthentication();

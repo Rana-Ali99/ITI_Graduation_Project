@@ -20,5 +20,21 @@ namespace ReadersClubApi.Controllers
             var stories = _storyService.GetMostPopularStories();
             return Ok(stories);
         }
+        [HttpGet]
+        public IActionResult GetAllStories()
+        {
+            var stories = _storyService.GetAllStories();
+            return Ok(stories);
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetStoryById(int id)
+        {
+            var story = _storyService.GetStoryById(id);
+            if (story == null)
+                return NotFound();
+
+            return Ok(story);
+
+        }
     }
 }

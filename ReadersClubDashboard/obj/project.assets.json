@@ -7821,21 +7821,19 @@
   },
   "packageFolders": {
     "C:\\Users\\NoteBook\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectUniqueName": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "projectName": "ReadersClubDashboard",
-      "projectPath": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+      "projectPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
       "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-      "outputPath": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\obj\\",
+      "outputPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7853,8 +7851,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubCore\\ReadersClubCore.csproj": {
-              "projectPath": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubCore\\ReadersClubCore.csproj"
+            "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj": {
+              "projectPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj"
             }
           }
         }
@@ -7869,7 +7867,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -7907,28 +7905,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.200, 9.0.200]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7937,7 +7913,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
