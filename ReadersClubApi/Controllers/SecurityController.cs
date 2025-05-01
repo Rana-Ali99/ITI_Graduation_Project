@@ -155,7 +155,7 @@ namespace ReadersClubApi.Controllers
 
         }
 
-
+        [HttpPost("ResetPassword")]
         public async Task<IActionResult> ResetPassword(ResetPasswordForm resetPasswordForm)
         {
             if (ModelState.IsValid)

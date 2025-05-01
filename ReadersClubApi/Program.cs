@@ -1,7 +1,8 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ReadersClubApi.Helper;
 using ReadersClubApi.Service;
+using ReadersClubApi.Services;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
 
@@ -16,16 +17,17 @@ namespace ReadersClubApi
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
             builder.Services.AddDbContext<ReadersClubContext>(
                 options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             );
+
             builder.Services.AddScoped<TokenConfiguration>();
             builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(
-                options=>
+                options =>
                 {
                     options.Password.RequireDigit = true;
                     options.Password.RequireLowercase = true;
@@ -35,8 +37,22 @@ namespace ReadersClubApi
                 })
                 .AddEntityFrameworkStores<ReadersClubContext>()
                 .AddDefaultTokenProviders();
+
             builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
             builder.Services.AddScoped<IMailService, MailService>();
+            builder.Services.AddScoped<StoryService>();
+
+            // ✅ إعداد CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowDashboard", policy =>
+                {
+                    policy.WithOrigins("http://localhost:3795")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -47,10 +63,13 @@ namespace ReadersClubApi
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
-            app.UseAuthentication(); 
+            // ✅ استخدام سياسة CORS قبل Authentication
+            app.UseCors("AllowDashboard");
+
+            app.UseAuthentication();
             app.UseAuthorization();
-
 
             app.MapControllers();
 
