@@ -1,308 +1,336 @@
 {
   "Files": [
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ReadersClubDashboard.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ReadersClubDashboard.bundle.scp.css"
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ReadersClubDashboard.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ReadersClubDashboard.4dfwo6vdt1.bundle.scp.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg",
       "PackagePath": "staticwebassets\\Uploads\\ChannelsImages\\2dcc227f-d35f-4c65-8365-24a693aa2144.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg",
       "PackagePath": "staticwebassets\\Uploads\\ChannelsImages\\9b72092a-3c32-458b-9f99-d62fcbaa1fbb.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\welcome-image.jpeg",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\ChannelsImages\\welcome-image.jpeg",
       "PackagePath": "staticwebassets\\Uploads\\ChannelsImages\\welcome-image.jpeg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg",
-      "PackagePath": "staticwebassets\\Uploads\\Covers\\3bfc694b-5007-4bfd-b100-4539cbf1a7b7.jpeg"
-    },
-    {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Covers\\49c667b9-8eb6-4ed3-a538-564fb4e621af.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\16647e55-a326-493f-b75a-bba3ffb66939.png",
-      "PackagePath": "staticwebassets\\Uploads\\Users\\16647e55-a326-493f-b75a-bba3ffb66939.png"
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\Covers\\dfb2e704-4960-4aec-acef-b4a9927accaf.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Covers\\dfb2e704-4960-4aec-acef-b4a9927accaf.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7b686b01-a070-46f8-8fa4-70e37f802f2e.png",
-      "PackagePath": "staticwebassets\\Uploads\\Users\\7b686b01-a070-46f8-8fa4-70e37f802f2e.png"
-    },
-    {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png",
       "PackagePath": "staticwebassets\\Uploads\\Users\\7d446068-e98f-4a53-a550-5b86daa535f8.png"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\not_found.jpg",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\Users\\not_found.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Users\\not_found.jpg"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\271c33b3-be33-49d1-aaf8-b34ea69dfb30.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\271c33b3-be33-49d1-aaf8-b34ea69dfb30.mp3"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3",
       "PackagePath": "staticwebassets\\Uploads\\audios\\511450dd-7aae-4980-a3eb-8b4e517d925f.mp3"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3",
       "PackagePath": "staticwebassets\\Uploads\\audios\\c917b74e-f8d8-468f-b6e5-5ce71d6989bd.mp3"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\dd89a77d-4494-4528-85d8-2dd290fbf4ed.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\dd89a77d-4494-4528-85d8-2dd290fbf4ed.mp3"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\e1a92323-655d-4d03-a2a9-45c28c93b2ea.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\e1a92323-655d-4d03-a2a9-45c28c93b2ea.mp3"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\audios\\fd0add0c-f147-4acd-b466-fa039f7f51fa.mp3",
+      "PackagePath": "staticwebassets\\Uploads\\audios\\fd0add0c-f147-4acd-b466-fa039f7f51fa.mp3"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\2a91aa1c-7838-4988-bc59-f700ca266d03.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\2a91aa1c-7838-4988-bc59-f700ca266d03.pdf"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\3bde7251-1bef-45c3-9810-8ecf2f8d40b9.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\3bde7251-1bef-45c3-9810-8ecf2f8d40b9.pdf"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf",
       "PackagePath": "staticwebassets\\Uploads\\pdfs\\4bd76803-1598-4f0d-9e51-3f3c081cc04f.pdf"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\7a55e3f6-a5e7-4ccf-96dd-dd5c4976fc4c.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\7a55e3f6-a5e7-4ccf-96dd-dd5c4976fc4c.pdf"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf",
       "PackagePath": "staticwebassets\\Uploads\\pdfs\\c74ccc2f-cf93-4f8e-bfd7-42ea3fa95679.pdf"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\Channel.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\Uploads\\pdfs\\cfa3f8cd-9666-4456-a981-1ac508e656c0.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\pdfs\\cfa3f8cd-9666-4456-a981-1ac508e656c0.pdf"
+    },
+    {
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\css\\Channel.css",
       "PackagePath": "staticwebassets\\css\\Channel.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\login.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\css\\site.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\favicon.ico",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\js\\site.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\ITITasks\\ITIGraduationProject\\ReadersClub\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\ITI-4months\\Graduation Project\\Dashboard\\ReadersClubDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReadersClubDashboard.Microsoft.AspNetCore.StaticWebAssets.props",
