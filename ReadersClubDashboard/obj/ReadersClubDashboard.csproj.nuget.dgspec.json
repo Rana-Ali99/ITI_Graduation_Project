@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\ReadersClubDashboard.csproj": {}
+    "F:\\ITI_Project\\Graduation Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj": {
+    "F:\\ITI_Project\\Graduation Project\\ReadersClubCore\\ReadersClubCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj",
+        "projectUniqueName": "F:\\ITI_Project\\Graduation Project\\ReadersClubCore\\ReadersClubCore.csproj",
         "projectName": "ReadersClubCore",
-        "projectPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj",
-        "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\obj\\",
+        "projectPath": "F:\\ITI_Project\\Graduation Project\\ReadersClubCore\\ReadersClubCore.csproj",
+        "packagesPath": "C:\\Users\\eltai\\.nuget\\packages\\",
+        "outputPath": "F:\\ITI_Project\\Graduation Project\\ReadersClubCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eltai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\ReadersClubDashboard.csproj": {
+    "F:\\ITI_Project\\Graduation Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+        "projectUniqueName": "F:\\ITI_Project\\Graduation Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
         "projectName": "ReadersClubDashboard",
-        "projectPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
-        "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubDashboard\\obj\\",
+        "projectPath": "F:\\ITI_Project\\Graduation Project\\ReadersClubDashboard\\ReadersClubDashboard.csproj",
+        "packagesPath": "C:\\Users\\eltai\\.nuget\\packages\\",
+        "outputPath": "F:\\ITI_Project\\Graduation Project\\ReadersClubDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\NoteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eltai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj": {
-                "projectPath": "D:\\ITI\\ITI_Graduation_Project.git\\ReadersClubCore\\ReadersClubCore.csproj"
+              "F:\\ITI_Project\\Graduation Project\\ReadersClubCore\\ReadersClubCore.csproj": {
+                "projectPath": "F:\\ITI_Project\\Graduation Project\\ReadersClubCore\\ReadersClubCore.csproj"
               }
             }
           }
@@ -181,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
