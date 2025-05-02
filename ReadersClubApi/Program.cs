@@ -37,6 +37,16 @@ namespace ReadersClubApi
                 .AddDefaultTokenProviders();
             builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
             builder.Services.AddScoped<IMailService, MailService>();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("MyAllowSpecificOrigins",x =>
+                {
+                    x.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -47,7 +57,7 @@ namespace ReadersClubApi
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("MyAllowSpecificOrigins");
             app.UseAuthentication(); 
             app.UseAuthorization();
 

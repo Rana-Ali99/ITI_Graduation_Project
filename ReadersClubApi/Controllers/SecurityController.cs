@@ -46,8 +46,7 @@ namespace ReadersClubApi.Controllers
                     {
                         Name = regiserForm.Name,
                         Email = regiserForm.Email,
-                        UserName = regiserForm.UserName,
-                        PhoneNumber = regiserForm.PhoneNumber
+                        UserName = regiserForm.Email.Split('@').FirstOrDefault()
                     };
                     var result = await _userManager.CreateAsync(user, regiserForm.Password);
                     if (result.Succeeded)
@@ -63,7 +62,7 @@ namespace ReadersClubApi.Controllers
                         return Ok(new
                         {
                             Message = "تم التسجيل بنجاح",
-                            Token = _token.CreateToken(user, _userManager)
+                            Token = _token.CreateToken(user, _userManager).Result
                         });
                     }
                     ModelState.AddModelError("UserName", "اسم المستخدم موجود بالفعل .");
