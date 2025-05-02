@@ -47,7 +47,7 @@ namespace ReadersClubApi
             {
                 options.AddPolicy("AllowDashboard", policy =>
                 {
-                    policy.WithOrigins("http://localhost:9176")
+                    policy.AllowAnyOrigin()
                           .AllowAnyHeader()
                           .AllowAnyMethod();
                 });

@@ -46,7 +46,8 @@ namespace ReadersClubApi.Services
                 {
                     Id = s.Id,
                     Title = s.Title,
-                    Cover =s.Cover,
+                    Cover = string.IsNullOrEmpty(s.Cover) ? null :
+            $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
                     Description = s.Description,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
                     ChannelName = s.Channel.Name,
@@ -71,23 +72,68 @@ namespace ReadersClubApi.Services
                 {
                     Id = s.Id,
                     Title = s.Title,
-                    Cover = s.Cover,
+                    Cover = string.IsNullOrEmpty(s.Cover) ? null :
+            $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
                     Description = s.Description,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
                     ChannelName = s.Channel.Name,
                     CategoryName = s.Category.Name,
                     File = string.IsNullOrEmpty(s.File) ? null :
-            $"http://localhost:5298/Uploads/Files/{s.File}",
+            $"http://readersclub.runasp.net//Uploads/Files/{s.File}",
                     Audio = string.IsNullOrEmpty(s.Audio) ? null :
-            $"http://localhost:5298/Uploads/Audios/{s.Audio}",
-                    Summary = string.IsNullOrEmpty(s.Summary) ? null :
-            $"http://localhost:5298/Uploads/Summaries/{s.Summary}",
+            $"http://readersclub.runasp.net//Uploads/Audios/{s.Audio}",
+                    Summary = s.Summary,
                     ViewsCount = s.ViewsCount,
                     LikesCount = s.LikesCount,
                     DislikesCount = s.DislikesCount,
                 })
                 .FirstOrDefault(s => s.Id == id);
             return story;
+        }
+        public void UpdateStoryViewsCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.ViewsCount++;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryLikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.LikesCount++;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryUnlikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.LikesCount--;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryDislikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.DislikesCount++;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryUnDislikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.DislikesCount--;
+                _context.SaveChanges();
+            }
         }
 
     }
