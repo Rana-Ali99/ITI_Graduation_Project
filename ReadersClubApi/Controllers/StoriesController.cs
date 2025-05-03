@@ -1,48 +1,48 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ReadersClubApi.DTO;
-using ReadersClubCore.Data;
-using ReadersClubCore.Models;
+using ReadersClubApi.Service;
+using ReadersClubApi.Services;
 
 namespace ReadersClubApi.Controllers
 {
-
-    public class StoriesController : BaseController
+    [Route("api/[controller]")]
+    [ApiController]
+    public class StoriesController : ControllerBase
     {
-        private readonly ReadersClubContext _context;
+        private readonly StoryService _storyService;
+        private readonly ReviewService _reviewService;
 
-        public StoriesController(ReadersClubContext context)
+        public StoriesController(StoryService storyService
+            ,ReviewService reviewService)
         {
-            _context = context;
+            _storyService = storyService;
+            _reviewService = reviewService;
+        }
+
+        [HttpGet("popular")]
+        public IActionResult GetPopularStories()
+        {
+            var stories = _storyService.GetMostPopularStories();
+            return Ok(stories);
         }
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<StoryVM>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult GetAllStories()
         {
-            var stories = _context.Stories
-                .Include(c => c.Category)
-                .Include(c => c.Channel)
-                .Where(x => !x.IsDeleted
-                        && x.IsValid
-                        && x.IsActive
-                        && x.Status == Status.Approved)
-                .Select(x => new StoryVM
-                {
-                    Story = x,
-                    AverageRating = x.Reviews.Any() ? x.Reviews.Average(r => r.Rating) : 0
-                })
-                .ToList();
-
-            if (!stories.Any())
-                return NotFound("No stories found.");
-
-            return Ok(new
-            {
-                Stories = stories
-            });
+            var stories = _storyService.GetAllStories();
+            return Ok(stories);
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetStoryById(int id)
+        {
+            var story = _storyService.GetStoryById(id);
+            var storyReviews = await _reviewService.GetAllReviewsInStory(story.Id);
+            if (story == null)
+                return NotFound();
+            story.Reviews = storyReviews;
+            return Ok(story);
+
+        }
+
 
     }
 }

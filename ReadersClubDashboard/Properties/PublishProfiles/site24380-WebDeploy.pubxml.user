@@ -6,13 +6,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu+II6oygRUKY+a8vV5DoCwAAAAACAAAAAAAQZgAAAAEAACAAAAAGCI61OQN8+ltGdcfu5HGxtq0EIKiA5pRQIG+Iqn8c4QAAAAAOgAAAAAIAACAAAACJIjXdyVyi2ucozGQ2B+2O01/4RvruWXribS292IvBRyAAAADRr4jr/CFdHKDW8cn1cTwT3PkcWSL9KYJ0hcYoJfSgeEAAAACiY65RX1x/G3cT90G1NFM5v/QkPiMdUPzaVx4HuquDctzHAVz0m9YVWOGSEszqThYKEA0Zj5yqHZs4SpljQT61</EncryptedPassword>
-    <History>True|2025-05-01T12:20:21.2659129Z||;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu+II6oygRUKY+a8vV5DoCwAAAAACAAAAAAAQZgAAAAEAACAAAADlCLLZRp8KRE+BPqQxd8idXX0L6hbNr030wG3dGvMY2QAAAAAOgAAAAAIAACAAAACFzM+YUgtPKzc4wFYqvlnEMgzyqipuIE9NJUjV/+E5eSAAAAAKKH3raCzVKCXhVVuUSrMFEqS8urv5nihNEDgIFxxbNEAAAAD2oZ1/9cR74uGcOCdC9bVA4CjvuTE98nDFFslxgzvVxi8VW7Er8pp/FO9eFT9pQBs4WCmD7LZ6WM6RiNlCIR/E</EncryptedPassword>
+    <History>True|2025-05-02T23:03:12.3492702Z||;</History>
     <LastFailureDetails />
   </PropertyGroup>
-  <ItemGroup>
-    <DestinationConnectionStrings Include="default">
-      <Value>Server=db18557.public.databaseasp.net%3b Database=db18557%3b User Id=db18557%3b Password=yC%258=5Qa3Zb+%3b Encrypt=False%3b MultipleActiveResultSets=True%3b</Value>
-    </DestinationConnectionStrings>
-  </ItemGroup>
 </Project>

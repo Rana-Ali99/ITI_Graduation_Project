@@ -4,7 +4,7 @@
     {
         public static string UploadFile(IFormFile file, string folderName,string webRootPath)
         {
-            string folderPath = Path.Combine(webRootPath, "Uploads", folderName);
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Uploads", folderName);
             if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath);

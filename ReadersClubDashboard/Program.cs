@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using ReadersClubCore.Data;
 using ReadersClubCore.DataSeed;
 using ReadersClubCore.Models;
@@ -83,7 +84,12 @@ namespace ReadersClubDashboard
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+        //    app.UseStaticFiles(new StaticFileOptions
+        //    {
+        //        FileProvider = new PhysicalFileProvider(
+        //Path.Combine(Directory.GetCurrentDirectory(), "Uploads")),
+        //        RequestPath = "/Uploads"
+        //    });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
