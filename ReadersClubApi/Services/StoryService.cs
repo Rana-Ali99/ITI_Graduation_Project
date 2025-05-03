@@ -47,8 +47,7 @@ namespace ReadersClubApi.Services
                 {
                     Id = s.Id,
                     Title = s.Title,
-                    Cover = string.IsNullOrEmpty(s.Cover) ? null :
-            $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
+                    Cover = s.Cover,
                     Description = s.Description,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
                     ChannelName = s.Channel.Name,
