@@ -18,6 +18,7 @@ namespace ReadersClubApi.DTO
         public long ViewsCount { get; set; } = 0;
         public int LikesCount { get; set; } = 0;
         public int DislikesCount { get; set; } = 0;
+        public IEnumerable<ReviewDto> Reviews { get; set; } = new List<ReviewDto>();
     }
 
 }

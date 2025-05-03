@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ReadersClubApi.Service;
 using ReadersClubApi.Services;
 
 namespace ReadersClubApi.Controllers
@@ -11,10 +12,13 @@ namespace ReadersClubApi.Controllers
     public class StoriesController : ControllerBase
     {
         private readonly StoryService _storyService;
+        private readonly ReviewService _reviewService;
 
-        public StoriesController(StoryService storyService)
+        public StoriesController(StoryService storyService
+            ,ReviewService reviewService)
         {
             _storyService = storyService;
+            _reviewService = reviewService;
         }
 
         [HttpGet("popular")]
@@ -31,12 +35,13 @@ namespace ReadersClubApi.Controllers
             return Ok(stories);
         }
         [HttpGet("{id}")]
-        public IActionResult GetStoryById(int id)
+        public async Task<IActionResult> GetStoryById(int id)
         {
             var story = _storyService.GetStoryById(id);
+            var storyReviews = await _reviewService.GetAllReviewsInStory(story.Id);
             if (story == null)
                 return NotFound();
-
+            story.Reviews = storyReviews;
             return Ok(story);
 
         }

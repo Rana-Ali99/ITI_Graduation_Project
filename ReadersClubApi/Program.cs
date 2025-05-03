@@ -1,6 +1,7 @@
 ﻿using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using ReadersClubApi.Helper;
 using ReadersClubApi.Service;
 using ReadersClubApi.Services;
@@ -54,6 +55,8 @@ namespace ReadersClubApi
             );
 
             builder.Services.AddScoped<TokenConfiguration>();
+
+            builder.Services.AddScoped<ReviewService>();
             builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(
                 options =>
                 {
@@ -69,6 +72,9 @@ namespace ReadersClubApi
             builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
             builder.Services.AddScoped<IMailService, MailService>();
             builder.Services.AddScoped<StoryService>();
+            //add channel service
+            builder.Services.AddScoped<IChannelService, ChannelService>();
+
 
             // ✅ إعداد CORS
             builder.Services.AddCors(options =>
@@ -83,7 +89,7 @@ namespace ReadersClubApi
            
 
             var app = builder.Build();
-
+            var env = app.Environment;
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -93,6 +99,12 @@ namespace ReadersClubApi
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+        Path.Combine(env.WebRootPath, "Uploads")), 
+                RequestPath = "/Uploads"
+            });
 
             app.UseCors("AllowDashboard");
 

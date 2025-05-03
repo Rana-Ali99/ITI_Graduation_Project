@@ -11,11 +11,10 @@ namespace ReadersClubApi.DTO
         [DataType(DataType.Password)]
         [RegularExpression(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$",
 ErrorMessage = "كلمة المرور يجب أن تحتوي على حرف كبير، حرف صغير، رقم، وأن تكون على الأقل 8 أحرف.")]
-        public string Password { get; set; }
+        public string NewPassword { get; set; }
         [Required]
         [DataType(DataType.Password)]
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$",
-ErrorMessage = "كلمة المرور يجب أن تحتوي على حرف كبير، حرف صغير، رقم، وأن تكون على الأقل 8 أحرف.")]
-        public string NewPassword { get; set; }
+        [Compare("NewPassword")]
+        public string ConfirmPassword { get; set; }
     }
 }

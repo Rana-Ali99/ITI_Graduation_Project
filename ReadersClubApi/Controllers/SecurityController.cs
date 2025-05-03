@@ -46,8 +46,7 @@ namespace ReadersClubApi.Controllers
                     {
                         Name = regiserForm.Name,
                         Email = regiserForm.Email,
-                        UserName = regiserForm.UserName,
-                        PhoneNumber = regiserForm.PhoneNumber
+                        UserName = regiserForm.Email.Split('@').FirstOrDefault()
                     };
                     var result = await _userManager.CreateAsync(user, regiserForm.Password);
                     if (result.Succeeded)
@@ -63,7 +62,7 @@ namespace ReadersClubApi.Controllers
                         return Ok(new
                         {
                             Message = "تم التسجيل بنجاح",
-                            Token = _token.CreateToken(user, _userManager)
+                            Token = _token.CreateToken(user, _userManager).Result
                         });
                     }
                     ModelState.AddModelError("UserName", "اسم المستخدم موجود بالفعل .");
@@ -129,13 +128,13 @@ namespace ReadersClubApi.Controllers
         }
         //Forget Password
         [HttpPost("ForgetPassword")]
-        public async Task<IActionResult> ForgetPassword([FromBody] [EmailAddress] string Email)
+        public async Task<IActionResult> ForgetPassword(ForgetPasswordForm forgetPasswordForm)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var user = await _userManager.FindByEmailAsync(Email);
+                    var user = await _userManager.FindByEmailAsync(forgetPasswordForm.Email);
                     if (user == null)
                     {
                         return BadRequest("لا يوجد مستخدم بهذا البريد الإلكتروني");
@@ -154,7 +153,7 @@ namespace ReadersClubApi.Controllers
             return BadRequest("فشلت عملية إرسال الكود");
 
         }
-
+       
         [HttpPost("ResetPassword")]
         public async Task<IActionResult> ResetPassword(ResetPasswordForm resetPasswordForm)
         {
@@ -170,7 +169,7 @@ namespace ReadersClubApi.Controllers
                 {
                     return BadRequest(new { Message = "فشل في إنشاء رمز إعادة تعيين كلمة المرور" });
                 }
-                var result = await _userManager.ResetPasswordAsync(user, resetPasswordForm.Password, resetPasswordForm.NewPassword);
+                var result = await _userManager.ResetPasswordAsync(user, token, resetPasswordForm.NewPassword);
                 if (result.Succeeded)
                 {
                     return Ok(new

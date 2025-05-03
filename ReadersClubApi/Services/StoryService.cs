@@ -20,7 +20,8 @@ namespace ReadersClubApi.Services
             var stories = _context.Stories
                 .Include(s => s.Channel)
                 .Include(s => s.Category)
-                .Where(s => s.IsValid && !s.IsDeleted)
+                .Where(s => s.IsValid && !s.IsDeleted
+                && s.Status == Status.Approved)
                 .Select(s => new PopularStoryDTO
                 {
                     Id = s.Id,
@@ -46,12 +47,16 @@ namespace ReadersClubApi.Services
                 {
                     Id = s.Id,
                     Title = s.Title,
+<<<<<<< HEAD
                     Cover = string.IsNullOrEmpty(s.Cover) ? null :
             $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
                     File = string.IsNullOrEmpty(s.File) ? null :
             $"http://readersclub.runasp.net//Uploads/Files/{s.File}",
                     Audio = string.IsNullOrEmpty(s.Audio) ? null :
             $"http://readersclub.runasp.net//Uploads/Audios/{s.Audio}",
+=======
+                    Cover = s.Cover,
+>>>>>>> 4a14e995b0587f70f80b9933d923f682f46478c1
                     Description = s.Description,
                     Summary = s.Summary,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
@@ -60,7 +65,7 @@ namespace ReadersClubApi.Services
                     ViewsCount = s.ViewsCount,
                     LikesCount = s.LikesCount,
                     DislikesCount = s.DislikesCount,
-
+             
                 })
                  .Distinct()
                 .ToList();
@@ -77,20 +82,17 @@ namespace ReadersClubApi.Services
                 {
                     Id = s.Id,
                     Title = s.Title,
-                    Cover = string.IsNullOrEmpty(s.Cover) ? null :
-            $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
+                    Cover = s.Cover,
                     Description = s.Description,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
                     ChannelName = s.Channel.Name,
                     CategoryName = s.Category.Name,
-                    File = string.IsNullOrEmpty(s.File) ? null :
-            $"http://readersclub.runasp.net//Uploads/Files/{s.File}",
-                    Audio = string.IsNullOrEmpty(s.Audio) ? null :
-            $"http://readersclub.runasp.net//Uploads/Audios/{s.Audio}",
+                    File = s.File,
+                    Audio = s.Audio,
                     Summary = s.Summary,
                     ViewsCount = s.ViewsCount,
                     LikesCount = s.LikesCount,
-                    DislikesCount = s.DislikesCount,
+                    DislikesCount = s.DislikesCount
                 })
                 .FirstOrDefault(s => s.Id == id);
             return story;

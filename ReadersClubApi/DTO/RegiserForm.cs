@@ -8,7 +8,11 @@ namespace ReadersClubApi.DTO
         [MaxLength(20)]
         [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Name can only contain letters and spaces.")]
         public string Name { get; set; }
+<<<<<<< HEAD
         [Required]
+=======
+
+>>>>>>> 4a14e995b0587f70f80b9933d923f682f46478c1
         public string? UserName { get; set; }
         [Required]
         [EmailAddress]
@@ -20,8 +24,6 @@ ErrorMessage = "كلمة المرور يجب أن تحتوي على حرف كب�
         public string Password { get; set; }
         [Compare("Password")]
         public string ConfirmPassword { get; set; }
-
-        public string? PhoneNumber { get; set; }
         public bool IsAuthor { get; set; } = false;
     }
 }
