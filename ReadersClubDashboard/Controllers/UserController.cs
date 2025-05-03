@@ -208,8 +208,10 @@ namespace ReadersClubDashboard.Controllers
                     {
                         System.IO.File.Delete(userPath);
                     }
-                }
                 return RedirectToAction("Index");
+                }
+                return View(application);
+
             }
             catch
             {

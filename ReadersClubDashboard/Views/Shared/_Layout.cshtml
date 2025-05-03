@@ -81,10 +81,12 @@
     <!-- Main content -->
     <div class="main-content">
         <div class="topbar">
-            <h5>نادي القراء</h5>
+            <h5>
+                <img src="~/Uploads/Covers/logo-removebg-preview.png" alt="Logo" style="height: 80px;width:100px;border-radius : 50%; vertical-align: middle; ">
+                نادي القراء
+            </h5>
             <a asp-action="LogOut" asp-controller="Account" class="btn-logout">تسجيل خروج</a>
         </div>
-
         <div class="main-content-page">
             <!-- مكان عرض الصفحات -->
             @RenderBody()

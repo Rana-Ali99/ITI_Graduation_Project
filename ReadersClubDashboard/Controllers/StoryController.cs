@@ -109,6 +109,7 @@ namespace ReadersClubDashboard.Controllers
                     CategoryId = model.CategoryId,
                     UserId = model.UserId,
                     ChannelId = model.ChannelId,
+                    Status = model.Status,
                 };
                 storyService.AddStory(story);
                 if (User.IsInRole("admin"))
