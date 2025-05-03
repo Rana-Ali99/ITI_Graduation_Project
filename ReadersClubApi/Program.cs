@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System.Text;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ReadersClubApi.Helper;
 using ReadersClubApi.Service;
 using ReadersClubApi.Services;
 using ReadersClubCore.Data;
 using ReadersClubCore.Models;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ReadersClubApi
 {
@@ -13,6 +16,31 @@ namespace ReadersClubApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+         
+
+            // جلب الإعدادات من appsettings
+            var secretKey = builder.Configuration["JWT:SecretKey"];
+            var key = Encoding.ASCII.GetBytes(secretKey);
+
+            // إعداد المصادقة
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidIssuer = builder.Configuration["JWT:Issuer"],
+                    ValidAudience = builder.Configuration["JWT:Audience"],
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
 
             // Add services to the container.
 
@@ -52,6 +80,7 @@ namespace ReadersClubApi
                           .AllowAnyMethod();
                 });
             });
+           
 
             var app = builder.Build();
 

@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReadersClubApi.Services;
 
 namespace ReadersClubApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class StoriesController : ControllerBase
@@ -21,6 +23,7 @@ namespace ReadersClubApi.Controllers
             var stories = _storyService.GetMostPopularStories();
             return Ok(stories);
         }
+
         [HttpGet]
         public IActionResult GetAllStories()
         {
@@ -37,7 +40,7 @@ namespace ReadersClubApi.Controllers
             return Ok(story);
 
         }
-
+     
         [HttpPost("{id}/increase-views")]
         public IActionResult IncreaseViews(int id)
         {
@@ -45,24 +48,28 @@ namespace ReadersClubApi.Controllers
            
             return Ok();
         }
+        [Authorize]
         [HttpPost("{id}/like")]
         public IActionResult LikeStory(int id)
         {
             _storyService.UpdateStoryLikesCount(id);
             return Ok();
         }
+        [Authorize]
         [HttpPost("{id}/dislike")]
         public IActionResult DislikeStory(int id)
         {
             _storyService.UpdateStoryDislikesCount(id);
             return Ok();
         }
+        [Authorize]
         [HttpPost("{id}/unlike")]
         public IActionResult UnlikeStory(int id)
         {
             _storyService.UpdateStoryUnlikesCount(id);
             return Ok();
         }
+        [Authorize]
         [HttpPost("{id}/undislike")]
         public IActionResult UndislikeStory(int id)
         {

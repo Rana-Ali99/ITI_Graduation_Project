@@ -48,7 +48,12 @@ namespace ReadersClubApi.Services
                     Title = s.Title,
                     Cover = string.IsNullOrEmpty(s.Cover) ? null :
             $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
+                    File = string.IsNullOrEmpty(s.File) ? null :
+            $"http://readersclub.runasp.net//Uploads/Files/{s.File}",
+                    Audio = string.IsNullOrEmpty(s.Audio) ? null :
+            $"http://readersclub.runasp.net//Uploads/Audios/{s.Audio}",
                     Description = s.Description,
+                    Summary = s.Summary,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
                     ChannelName = s.Channel.Name,
                     CategoryName = s.Category.Name,
