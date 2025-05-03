@@ -47,7 +47,8 @@ namespace ReadersClubApi.Services
                 {
                     Id = s.Id,
                     Title = s.Title,
-                    Cover =s.Cover,
+                    Cover = string.IsNullOrEmpty(s.Cover) ? null :
+            $"http://readersclub.runasp.net//Uploads/Covers/{s.Cover}",
                     Description = s.Description,
                     AverageRating = s.Reviews.Any() ? s.Reviews.Average(r => (float)r.Rating) : 0,
                     ChannelName = s.Channel.Name,
@@ -86,6 +87,51 @@ namespace ReadersClubApi.Services
                 })
                 .FirstOrDefault(s => s.Id == id);
             return story;
+        }
+        public void UpdateStoryViewsCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.ViewsCount++;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryLikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.LikesCount++;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryUnlikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.LikesCount--;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryDislikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.DislikesCount++;
+                _context.SaveChanges();
+            }
+        }
+        public void UpdateStoryUnDislikesCount(int storyId)
+        {
+            var story = _context.Stories.FirstOrDefault(s => s.Id == storyId);
+            if (story != null)
+            {
+                story.DislikesCount--;
+                _context.SaveChanges();
+            }
         }
 
     }

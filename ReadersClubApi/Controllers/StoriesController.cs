@@ -43,6 +43,36 @@ namespace ReadersClubApi.Controllers
 
         }
 
-
+        [HttpPost("{id}/increase-views")]
+        public IActionResult IncreaseViews(int id)
+        {
+             _storyService.UpdateStoryViewsCount(id);
+           
+            return Ok();
+        }
+        [HttpPost("{id}/like")]
+        public IActionResult LikeStory(int id)
+        {
+            _storyService.UpdateStoryLikesCount(id);
+            return Ok();
+        }
+        [HttpPost("{id}/dislike")]
+        public IActionResult DislikeStory(int id)
+        {
+            _storyService.UpdateStoryDislikesCount(id);
+            return Ok();
+        }
+        [HttpPost("{id}/unlike")]
+        public IActionResult UnlikeStory(int id)
+        {
+            _storyService.UpdateStoryUnlikesCount(id);
+            return Ok();
+        }
+        [HttpPost("{id}/undislike")]
+        public IActionResult UndislikeStory(int id)
+        {
+            _storyService.UpdateStoryUnDislikesCount(id);
+            return Ok();
+        }
     }
 }

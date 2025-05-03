@@ -44,6 +44,9 @@ namespace ReadersClubApi
             builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
             builder.Services.AddScoped<IMailService, MailService>();
             builder.Services.AddScoped<StoryService>();
+            //add channel service
+            builder.Services.AddScoped<IChannelService, ChannelService>();
+
 
             // ✅ إعداد CORS
             builder.Services.AddCors(options =>
